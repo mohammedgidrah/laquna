@@ -65,7 +65,7 @@
                         </ul>
                     </div>
                 </li>
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a data-bs-toggle="collapse" href="#category" aria-expanded="false" aria-controls="category">
                         <i class="fa-solid fa-layer-group"></i>
                         <p>categories</p>
@@ -85,29 +85,29 @@
                             </li>
                         </ul>
                     </div>
-                </li> --}}
+                </li>
 
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a data-bs-toggle="collapse" href="#products" aria-expanded="false" aria-controls="products">
                         <i class="fa-solid fa-basket-shopping"></i>
-                        <p>products</p>
+                        <p>brands</p>
                         <span class="caret"></span>
                     </a>
                     <div class="collapse" id="products">
                         <ul class="nav nav-collapse">
                             <li>
-                                <a href="{{ route('products.index') }}">
-                                    <span class="sub-item">All products</span>
+                                <a href="{{ route('brands.index') }}">
+                                    <span class="sub-item">All brands</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ route('products.create') }}">
-                                    <span class="sub-item">create products</span>
+                                <a href="{{ route('brands.create') }}">
+                                    <span class="sub-item">create brands</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                </li> --}}
+                </li>
 
 
                 {{-- <li class="nav-item">

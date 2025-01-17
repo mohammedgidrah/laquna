@@ -20,7 +20,7 @@
                     <i class="icon-arrow-right"></i>
                 </li>
                 <li class="nav-item">
-                    <a href={{ route('users.edit', $users->id) }}>Edit User</a>
+                    <a href={{ route('users.edit', $user->id) }}>Edit User</a>
                 </li>
             </ul>
         </div>
@@ -29,82 +29,34 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <form action="{{ route('users.update', $users->id) }}" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('users.update', $user->id) }}" method="POST" enctype="multipart/form-data">
                             @csrf
                             @method('PUT') <!-- Use PUT for update -->
 
                             <div class="form-group">
-                                <label for="first_name">First name</label>
-                                <input type="text" class="form-control" id="first_name" name="first_name" value="{{ $users->first_name }}">
-                                @error('first_name')
+                                <label for="name">First name</label>
+                                <input type="text" class="form-control" id="name" name="name" value="{{ $user->name }}">
+                                @error('name')
                                     <div class="text-danger">{{ $message }}</div>
                                 @enderror
                             </div>
 
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label for="last_name">Last name</label>
                                 <input type="text" class="form-control" id="last_name" name="last_name" value="{{ $users->last_name }}">
                                 @error('last_name')
                                     <div class="text-danger">{{ $message }}</div>
                                 @enderror
-                            </div>
+                            </div> --}}
 
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" name="email" value="{{ $users->email }}">
+                                <input type="email" class="form-control" id="email" name="email" value="{{ $user->email }}">
                                 @error('email')
                                     <div class="text-danger">{{ $message }}</div>
                                 @enderror
                             </div>
-
-                            <div class="form-group">
-                                <label for="phone">Phone</label>
-                                <input type="text" class="form-control" id="phone" name="phone" value="{{ $users->phone }}">
-                                @error('phone')
-                                    <div class="text-danger">{{ $message }}</div>
-                                @enderror
-                            </div>
-
-                            <div class="form-group">
-                                <label for="address">Address</label>
-                                <textarea class="form-control" id="address" name="address" rows="3">{{ $users->address }}</textarea>
-                                @error('address')
-                                    <div class="text-danger">{{ $message }}</div>
-                                @enderror
-                            </div>
-
-                            <div class="form-group">
-                                <label for="role">Role</label>
-                                <select class="form-control" id="role" name="role">
-                                    <option value="user" {{ $users->role == 'user' ? 'selected' : '' }}>User</option>
-                                    <option value="admin" {{ $users->role == 'admin' ? 'selected' : '' }}>Admin</option>
-                                </select>
-                                @error('role')
-                                    <div class="text-danger">{{ $message }}</div>
-                                @enderror
-                            </div>
-
-                            <div class="form-group">
-                                <label for="image">Image</label>
-                                <input type="file" class="form-control-file" id="image" name="image" onchange="previewImage(event)">
-                                <div class="d-flex align-items-center mt-2">
-                                    <p class="mb-0">Old image:</p>
-                                    @if ($users->image)
-                                        <!-- Display Old Image -->
-                                        <img src="{{ asset('storage/' . $users->image) }}"
-                                             alt="{{ $users->first_name }} {{ $users->last_name }}"
-                                             style="width: 100px; height: auto;" class="img-thumbnail ms-2" id="oldImage" />
-                                    @endif
-                                    <p class="mb-0 ms-3">New image:</p>
-                                    <!-- Display New Image Preview -->
-                                    <img id="newImagePreview" style="width: 100px; height: auto; display: none;"
-                                         class="img-thumbnail ms-2" />
-                                </div>
-
-                                @error('image')
-                                    <div class="text-danger">{{ $message }}</div>
-                                @enderror
-                            </div>
+ 
 
                             <button type="submit" class="btn btn-primary">Update User</button>
                             <a href="{{ route('users.index') }}" class="btn btn-secondary">Cancel</a>

@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\BrandController;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,3 +58,6 @@ Route::post('/logout', function (Request $request) {
 
 // Resource controller for managing users
 Route::resource('users', UserController::class)->middleware('auth'); // Protect user routes with 'auth' middleware
+
+Route::resource('categories', CategoryController::class);
+Route::resource('brands', BrandController::class);
