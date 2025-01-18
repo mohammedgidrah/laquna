@@ -1513,3 +1513,37 @@ header.navigation .navbar-brand img {
 max-height: 40px; /* Further reduced height for extra small screens */
 }
 }
+
+.blog-wrap .blog-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ensure all blog items are the same height */
+}
+
+.blog-wrap .blog-item img {
+  max-height: 250px; /* Set a consistent image height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  width: 100%; /* Make the image responsive */
+  border-radius: 10px; /* Matches your existing rounded corners */
+}
+
+.blog-wrap .blog-item-content {
+  flex: 1; /* Ensures content takes up available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Spreads content evenly */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.blog-wrap .blog-item-content p {
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .blog-wrap .blog-item {
+      margin-bottom: 30px;
+  }
+}

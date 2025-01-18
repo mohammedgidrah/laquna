@@ -11,7 +11,7 @@
 				<div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
 					<div class="header-top-info">
 						<a href="tel:+23-345-67890">Call Us : <span>+23-345-67890</span></a>
-						<a href="mailto:support@gmail.com" ><i class="fa fa-envelope mr-2"></i><span>support@gmail.com</span></a>
+						<a href="mailto:leensabti@lagunavco.com" ><i class="fa fa-envelope mr-2"></i><span>leensabti@lagunavco.com</span></a>
 					</div>
 				</div>
 			</div>
@@ -35,14 +35,14 @@
 			  </li>
 			  <li class="nav-item">
 
-				  <a class="nav-link" href="about.html">About</a>
+				  <a class="nav-link" href="{{ url('/about') }}">About</a>
 			  </li>
  
-			   <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-			   <li class="nav-item"><a class="nav-link" href="project.html">our clients</a></li>
+			   <li class="nav-item"><a class="nav-link" href="{{ url('/services') }}">Services</a></li>
+			   <li class="nav-item"><a class="nav-link" href="{{ url('/ourclinent') }}">our clients</a></li>
 			   <li class="nav-item">
 
-				<a class="nav-link" href="blog-grid.html">prpject</a>
+				<a class="nav-link" href="{{ url('/projects') }}">projects</a>
 			</li>
 			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
@@ -53,7 +53,7 @@
 						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
 					</ul>
 			  </li> -->
-			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			   <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
 			</ul>
 
  

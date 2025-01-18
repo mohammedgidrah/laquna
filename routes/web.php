@@ -1,11 +1,11 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Http\Request;
-use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\BrandController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\UserController;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +20,28 @@ use App\Http\Controllers\BrandController;
 
 // Home route
 Route::get('/', function () {
-    return view('home'); // View for the home page
+    return view('mainpage'); // View for the home page
 })->name('home');
+Route::get('/about', function () {
+    return view('about');
 
+});
+Route::get('/services', function () {
+    return view('servicespage');
+
+});
+
+Route::get('/ourclinent', function () {
+    return view('ourclinets');
+    
+});
+Route::get('/projects', function () {
+    return view('projects');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
 // Admin dashboard route (protected with 'auth' middleware)
 Route::get('/admin', function () {
     return view('dashboard.main'); // View for the admin dashboard
@@ -38,7 +57,7 @@ Route::post('/login', function (Request $request) {
     $credentials = $request->only('email', 'password');
 
     if (Auth::attempt($credentials)) {
-        $request->session()->regenerate(); // Regenerate the session to prevent fixation attacks
+        $request->session()->regenerate();     // Regenerate the session to prevent fixation attacks
         return redirect()->route('dashboard'); // Correctly using the named route 'dashboard'
     }
 
@@ -50,10 +69,10 @@ Route::post('/login', function (Request $request) {
 
 // Handle logout
 Route::post('/logout', function (Request $request) {
-    Auth::logout(); // Logout the user
-    $request->session()->invalidate(); // Invalidate the session
+    Auth::logout();                         // Logout the user
+    $request->session()->invalidate();      // Invalidate the session
     $request->session()->regenerateToken(); // Regenerate CSRF token
-    return redirect()->route('home'); // Redirect to the login page with the named route
+    return redirect()->route('home');       // Redirect to the login page with the named route
 })->name('logout');
 
 // Resource controller for managing users
