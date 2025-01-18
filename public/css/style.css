@@ -111,7 +111,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-main:hover, .btn-transparent:hover, .btn-small:hover {
-  background: #dd0b0b;
+  background: #0b06a0;
   color: #fff;
 }
 

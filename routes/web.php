@@ -6,6 +6,7 @@ use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Homecontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +43,12 @@ Route::get('/projects', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/projects', [Homecontroller::class, 'index']);
+
+Route::get('/brands/{id}', [Homecontroller::class, 'showdetails'])->name('brands.showdetails');
+
+
 // Admin dashboard route (protected with 'auth' middleware)
 Route::get('/admin', function () {
     return view('dashboard.main'); // View for the admin dashboard

@@ -2,9 +2,11 @@
     <div class="sidebar-logo">
         <!-- Logo Header -->
         <div class="logo-header" data-background-color="dark">
-            {{-- <a href={{ route('status') }} class="logo"> --}}
-                <img src="{{ asset('assets/img/masterpeace_logo__1_-removebg-preview.png') }}" alt="navbar brand"
-                    class="navbar-brand" height="150" />
+            {{-- <img src="{{ asset('images/Screenshot_13-1-2025_171612_.jpeg') }}" alt="Footer Logo"> --}}
+
+            <a href={{ route('users.index') }} class="logo">
+                <img src="{{ asset('images/laquna.png') }}" style="height: 100px;width: 175px;padding-top: 20px" alt="navbar brand" class="navbar-brand logo-img" />
+              
             </a>
             <div class="nav-toggle">
                 <button class="btn btn-toggle toggle-sidebar ">
