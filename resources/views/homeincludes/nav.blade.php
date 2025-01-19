@@ -44,17 +44,24 @@
 
 				<a class="nav-link" href="{{ url('/projects') }}">projects</a>
 			</li>
-			   <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  </li> -->
-			   <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
-			</ul>
+			<!-- <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+				<ul class="dropdown-menu" aria-labelledby="dropdown05">
+					<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
+					<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
+					
+					<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+				</ul>
+			</li> -->
+			<li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
+			@if (Auth::user())
+			<li>
+	
+					<a class="nav-link" href="{{ url('/admin') }}">dashboard</a>
+			</li>
+				
+			@endif
+		</ul>
 
  
 		  </div>
