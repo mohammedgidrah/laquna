@@ -6,8 +6,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="block text-center">
-              <span class="text-white">About Us</span>
-              <h1 class="text-capitalize mb-4 text-lg">Our Company</h1>
+               <h1 class="text-capitalize mb-4 text-lg">Our Company</h1>
               <ul class="list-inline">
                 <li class="list-inline-item">
                   <a href="{{url('/')}}" class="text-white">Home</a>

@@ -10,8 +10,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="block text-center">
-            <span class="text-white">Contact Us</span>
-            <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
+             <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="{{url('/')}}" class="text-white">Home</a></li>
               <li class="list-inline-item"><span class="text-white">/</span></li>

@@ -6,12 +6,12 @@
       <div class="row">
         <div class="col-md-12">
           <div class="block text-center">
-            <span class="text-white">Our services</span>
+            {{-- <span class="text-white">Our services</span> --}}
             <h1 class="text-capitalize mb-4 text-lg">What We Do</h1>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="{{url('/')}}" class="text-white">Home</a></li>
               <li class="list-inline-item"><span class="text-white">/</span></li>
-              <li class="list-inline-item"><a href="{{url('services')}}" class="text-white-50"> services</a></li>
+              <li class="list-inline-item"><a href="{{url('services')}}" class="text-white-50">our services</a></li>
             </ul>
           </div>
         </div>
