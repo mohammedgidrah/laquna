@@ -6,8 +6,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="block text-center">
-            {{-- <span class="text-white">Our services</span> --}}
-            <h1 class="text-capitalize mb-4 text-lg">What We Do</h1>
+             <h1 class="text-capitalize mb-4 text-lg">What We Do</h1>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="{{url('/')}}" class="text-white">Home</a></li>
               <li class="list-inline-item"><span class="text-white">/</span></li>
@@ -21,7 +20,7 @@
   
   
   <!--  Section Services Start -->
-  <section class="section service border-top">
+  {{-- <section class="section service border-top">
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-lg-7 text-center">
@@ -106,10 +105,99 @@
               </div>
           </div>
       </div>
-  </section>
+  </section> --}}
+
+  <section class="section service border-top">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 text-center">
+                <div class="section-title">
+                    <span class="h6 text-color">Our Services</span>
+                    <h2 class="mt-3 content-title " style="font-size: 22px; line-height: 30px; width: 100%; ">A comprehensive suite of creative services, tailored to meet
+                        diverse needs.</h2>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
+                    <i class="ti-vector"></i>
+                    <h4>Branding</h4>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
+                    <i class="fa fa-share-alt"></i>
+                    <h4 class="mb-3">Social Media</h4>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
+                    <i class="fa fa-paint-brush"></i>
+                    <h4 class="mb-3"> Graphic Design </h4>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6" style="padding-top: 35px;">
+                <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
+                    <i class="fa fa-camera"></i>
+                    <h4 class="mb-3">Photography & Videography </h4>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6" style="padding-top: 35px;">
+                <div class="service-item mb-5" style="display: flex; padding-top: 13px; align-items: center;">
+                    <i class="ti-layers"></i>
+                    <h4 class="mb-3">Events </h4>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6" style="padding-top: 35px;">
+                <div class="service-item mb-5" style="display: flex; padding-top: 13px; align-items: center; ">
+                    <i class="fa fa-cogs"></i>
+                    <h4 class="mb-3"> Wood Manufacturing</h4>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-item mb-5" style="display: flex; padding-top: 13px; align-items: center;">
+                    <i class="ti-desktop"></i>
+                    <h4 class="mb-3">Web development</h4>
+                    <p> </p>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
+                    <i class="ti-pencil-alt"></i>
+                    <h4 class="mb-3">Content creation</h4>
+                    <p> </p>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
+                    <i class="fa fa-bullhorn"></i>
+                    <h4 class="mb-3">Advertising</h4>
+                    <p> </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
   <!--  Section Services End -->
   
-  <section class="cta-2">
+  {{-- <section class="cta-2">
       <div class="container">
           <div class="cta-block p-5 rounded">
               <div class="row justify-content-center align-items-center ">
@@ -123,6 +211,6 @@
               </div>
           </div>
       </div>
-  </section>
+  </section> --}}
   
   @endsection

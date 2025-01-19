@@ -120,7 +120,7 @@
           </div>
       </div>
   </section>
-  <section class="cta-2">
+  {{-- <section class="cta-2">
     <div class="container">
         <div class="cta-block p-5 rounded">
             <div class="row justify-content-center align-items-center ">
@@ -134,7 +134,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
   
   <!-- section portfolio END -->
   

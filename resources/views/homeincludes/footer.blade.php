@@ -20,9 +20,10 @@
             <div class="col-lg-3 ml-auto col-sm-6">
                 <div class="widget">
                     <div class="logo mb-4">
-                        <img src="{{ asset('images/Screenshot_13-1-2025_171612_.jpeg') }}" alt="Footer Logo">
+                        <img src="{{ asset('images/Screenshot_19-1-2025_14494_-removebg-preview.png') }}" alt="Footer Logo">
                      </div>
-                     <a href="mailto:leensabti@lagunavco.com"><span class="text-color h4">leensabti@lagunavco.com</span></a>
+                     {{-- <span>5555555</span> --}}
+                     {{-- <a href="mailto:leensabti@lagunavco.com"><span class="text-color h4">leensabti@lagunavco.com</span></a> --}}
                 </div>
             </div>
         </div>

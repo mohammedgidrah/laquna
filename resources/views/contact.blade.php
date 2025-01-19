@@ -61,22 +61,23 @@
                               <i class="ti-direction mr-3"></i>North Main Street,Brooklyn Australia
                           </li>
                           <li>
-                              <i class="ti-email mr-3"></i>Email: contact@mail.com
-                          </li>
+                            <a href="mailto:leensabti@lagunavco.com" ><i class="ti-email mr-3"></i><span>leensabti@lagunavco.com</span></a>
+
+                           </li>
                           <li>
-                              <i class="ti-mobile mr-3"></i>Phone:+88 01672 506 744
+                              <i class="ti-mobile mr-3"></i>Phone:+962 797992323
                           </li>
                       </ul>
   
                       <ul class="social-icons list-inline mt-5">
                           <li class="list-inline-item">
-                              <a href="http://www.themefisher.com"><i class="fab fa-facebook-f"></i></a>
+                              <a target="_blank" href="https://www.facebook.com/lagunavco"><i class="fab fa-facebook-f"></i></a>
                           </li>
                           <li class="list-inline-item">
-                              <a href="http://www.themefisher.com"><i class="fab fa-twitter"></i></a>
+                              <a target="_blank" href="https://www.instagram.com/lagunavco/"><i class="ti-instagram"></i></a>
                           </li>
                           <li class="list-inline-item">
-                              <a href="http://www.themefisher.com"><i class="fab fa-linkedin-in"></i></a>
+                              <a target="_blank"  href="https://www.linkedin.com/company/laguna-visual-communications/""><i class="fab fa-linkedin-in"></i></a>
                           </li>
                       </ul>
                   </div>
