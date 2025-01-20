@@ -65,7 +65,7 @@ class BrandController extends Controller
      */
     public function show(Brand $brand)
     {
-        return view('dashboard.brands.show', compact('brand'));
+        return view('brandditails', compact('brand'));
     }
 
     /**

@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Homecontroller;
+use App\Http\Controllers\ContactController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +20,7 @@ use App\Http\Controllers\Homecontroller;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+ 
 // Home route
 Route::get('/', function () {
     return view('mainpage'); // View for the home page
@@ -46,7 +48,7 @@ Route::get('/contact', function () {
 
 Route::get('/projects', [Homecontroller::class, 'index']);
 
-Route::get('/brands/{id}', [Homecontroller::class, 'showdetails'])->name('brands.showdetails');
+Route::get('/brand/{id}', [Homecontroller::class, 'showdetails'])->name('brand.showdetails');
 
 
 // Admin dashboard route (protected with 'auth' middleware)
@@ -86,4 +88,7 @@ Route::post('/logout', function (Request $request) {
 Route::resource('users', UserController::class)->middleware('auth'); // Protect user routes with 'auth' middleware
 
 Route::resource('categories', CategoryController::class);
+
+// Correct: using Route::resource to automatically generate all resource routes
 Route::resource('brands', BrandController::class);
+Route::post('/contact', [ContactController::class, 'submitForm'])->name('contact.submit');

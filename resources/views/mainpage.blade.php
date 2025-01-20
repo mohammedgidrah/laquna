@@ -1,6 +1,7 @@
 @extends('home')
 
 @section('content')
+   
     <section class="slider">
         <div class="container">
             <div class="row">
@@ -120,7 +121,249 @@
     </section>
     <!-- section Counter End  -->
     <!--  Section Services Start -->
-    <section class="section service border-top">
+    <div id="contentCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="9"
+                aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="10"
+                aria-label="Slide 11"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="11"
+                aria-label="Slide 12"></button>
+        </div>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://talabayhotelaqaba.com-jordan.com/" class="image-hvr-effect">
+                                <img src="images/portfolio/Talabay_logo-01[1].png" alt="Talabay Hotels & Resorts"
+                                    class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://talabayhotelaqaba.com-jordan.com/">Talabay Hotels & Resorts</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.instagram.com/murasaki.restobar/" class="image-hvr-effect">
+                                <img src="images/portfolio/Mursakai logo[1].png" alt="Murasakai Restobar"
+                                    class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.instagram.com/murasaki.restobar/">Murasakai Restobar</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.instagram.com/mirchi.aqaba/?hl=ar" class="image-hvr-effect">
+                                <img src="images/portfolio/Mirchi[1].png" alt="MIRACHI INDIAN CUSINE"
+                                    class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.instagram.com/mirchi.aqaba/?hl=ar">MIRACHI INDIAN CUSINE</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.instagram.com/space_restocafe/" class="image-hvr-effect">
+                                <img src="images/portfolio/Space[1].PNG" alt="SPACE RESTOCAFE"
+                                    class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.instagram.com/space_restocafe/">SPACE RESTOCAFE</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.facebook.com/HIGH.FIT.JO/?locale=ar_AR" class="image-hvr-effect">
+                                <img src="images/portfolio/Highfit[1].PNG" alt="HIGH FIT" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.facebook.com/HIGH.FIT.JO/?locale=ar_AR">HIGH FIT</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR" class="image-hvr-effect">
+                                <img src="images/portfolio/mughrabi pharmacy[1].PNG" alt="mughrabi pharmacy"
+                                    class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR">mughrabi pharmacy</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                {{-- ?????????????????????????? --}}
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR" class="image-hvr-effect">
+                                <img src="images/portfolio/Amazon[1].PNG" alt="Amazon" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR">Amazon</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR" class="image-hvr-effect">
+                                <img src="images/portfolio/ALdallah[1].PNG" alt="ALdallah" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR">ALdallah</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR" class="image-hvr-effect">
+                                <img src="images/portfolio/Ishq[1].PNG" alt="Ishq" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR">Ishq</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.facebook.com/mines.gaming2025" class="image-hvr-effect">
+                                <img src="images/portfolio/Mines[1].PNG" alt="Mines" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.facebook.com/mines.gaming2025">Mines</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://mazayaworld.com/en" class="image-hvr-effect">
+                                <img src="images/portfolio/Mazaya[1].PNG" alt="Mazaya" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://mazayaworld.com/en">Mazaya</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR" class="image-hvr-effect">
+                                <img src="images/portfolio/myaqaba[1].PNG" alt="myaqaba" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR">myaqaba</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Add more slides (e.g., Slide 3 to Slide 10) -->
+            <!-- Ensure you keep the `carousel-item` class and unique content for each slide -->
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#contentCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#contentCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+    </div>
+
+
+    {{-- <section class="section service border-top">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">
@@ -207,7 +450,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--  Section Services End -->
     <!-- Section Cta Start -->
     <section class="section cta">
@@ -318,17 +561,19 @@
             <div class="row  ">
                 <div class=" w-100">
                     <div class="card bg-transparent border-0">
-                        
-                        
-                        <div class="card-body mt-2" style="display: flex; justify-content: space-around; align-items: center;">
-                            <img src="images/leen photo.jpg" alt="" class="col-lg-4    ">
-             
 
-                            <h3 class="mt-3 mb-5 lh-36 text-white" style="font-size: 17px; font-weight: 100; width: 450px"> Founded by Leen Sabti, a
-                                    seasoned retail and graphic designer with over 10 years of experience, Laguna Visual
-                                    Communications is driven by a passion for innovation and a commitment to excellence.
-                                    Leen’s vision is to blend creativity with strategy, offering clients powerful, visually
-                                    impactful solutions that stand out in a competitive market. </h3>
+
+                        <div class="card-body mt-2"
+                            style="display: flex; justify-content: space-around; align-items: center;">
+                            <img src="images/leen photo.jpg" alt="" class="col-lg-4    ">
+
+
+                            <h3 class="mt-3 mb-5 lh-36 text-white"
+                                style="font-size: 17px; font-weight: 100; width: 450px"> Founded by Leen Sabti, a
+                                seasoned retail and graphic designer with over 10 years of experience, Laguna Visual
+                                Communications is driven by a passion for innovation and a commitment to excellence.
+                                Leen’s vision is to blend creativity with strategy, offering clients powerful, visually
+                                impactful solutions that stand out in a competitive market. </h3>
 
                             {{-- <a href="blog-single.html"
                                 class="btn btn-small btn-solid-border btn-round-full text-white">Learn More</a> --}}

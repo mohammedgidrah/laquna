@@ -29,7 +29,7 @@
                                 <img src="{{ asset('storage/' . $brand->image) }}" alt="{{ $brand->title }}" class="img-fluid rounded">
                                 <div class="blog-item-content bg-white p-5">
                                     <h3 class="mt-3 mb-3">
-                                        <a href="{{ route('brands.showdetails', $brand->id) }}">{{ $brand->name }}</a>
+                                        <a href="{{ route('brand.showdetails', $brand->id) }}">{{ $brand->name }}</a>
                                     </h3>
                                     <div class="blog-item-meta bg-gray py-1 px-2">
                                         <span>{{ $brand->category->name }}</span>
