@@ -1,19 +1,26 @@
 <?php
+
+// app/Mail/ContactFormMail.php
+
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ContactMessage extends Mailable
+class ContactFormMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $formData;
+    public $name;
+    public $email;
+    public $messageContent;
 
-    public function __construct($formData)
+    public function __construct($name, $email, $messageContent)
     {
-        $this->formData = $formData;
+        $this->name = $name;
+        $this->email = $email;
+        $this->messageContent = $messageContent;
     }
 
     public function build()

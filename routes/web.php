@@ -91,4 +91,4 @@ Route::resource('categories', CategoryController::class);
 
 // Correct: using Route::resource to automatically generate all resource routes
 Route::resource('brands', BrandController::class);
-Route::post('/contact', [ContactController::class, 'submitForm'])->name('contact.submit');
+Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.send');

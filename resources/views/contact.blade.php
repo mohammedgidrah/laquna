@@ -41,7 +41,7 @@
 
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12">
-                <form id="contact-form" class="contact__form" method="POST" action="{{ route('contact.submit') }}">
+                <form id="contact-form" class="contact__form" method="POST" action="{{ route('contact.send') }}">
                     @csrf
                     <div class="form-group">
                         <input name="name" type="text" class="form-control" placeholder="Your Name" value="{{ old('name') }}" required>
