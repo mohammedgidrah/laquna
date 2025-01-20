@@ -29,7 +29,7 @@
             <div class="card-body">
                 <form action="{{ route('brands.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
-
+                
                     <!-- Brand Name -->
                     <div class="form-group">
                         <label for="name">Brand Name</label>
@@ -38,7 +38,7 @@
                     @error('name')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror
-
+                
                     <!-- Launch Date -->
                     <div class="form-group mt-3">
                         <label for="lunched_at">Launch Date</label>
@@ -47,7 +47,7 @@
                     @error('lunched_at')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror
-
+                
                     <!-- Description -->
                     <div class="form-group mt-3">
                         <label for="description">Description</label>
@@ -56,16 +56,16 @@
                     @error('description')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror
-
+                
                     <!-- Brand Logo -->
                     <div class="form-group mt-3">
-                        <label for="image">Brand Logo</label>
-                        <input type="file" class="form-control" id="image" name="image" accept="image/*">
+                        <label for="image">Brand Images</label>
+                        <input type="file" class="form-control" id="image" name="images[]" accept="image/*" multiple>
                     </div>
-                    @error('image')
+                    @error('images')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror
-
+                
                     <!-- Category -->
                     <div class="form-group mt-3">
                         <label for="category_id">Category</label>
@@ -79,13 +79,14 @@
                     @error('category_id')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror
-
+                
                     <!-- Create and Back Buttons -->
                     <div class="d-flex gap-3 justify-content-start mt-4">
                         <button type="submit" class="btn btn-primary">Create Brand</button>
                         <a href="{{ route('brands.index') }}" class="btn btn-secondary">Back to Brands</a>
                     </div>
                 </form>
+                
             </div>
         </div>
     </div>

@@ -26,7 +26,11 @@
                     @foreach ($brandRow as $brand)
                         <div class="col-lg-6 col-md-6 mb-5">
                             <div class="blog-item">
-                                <img src="{{ asset('storage/' . $brand->image) }}" alt="{{ $brand->title }}" class="img-fluid rounded">
+                                @if ($brand->mainImage) <!-- Check if a main image exists -->
+                                    <img src="{{ asset('storage/' . $brand->mainImage->image_path) }}" alt="{{ $brand->name }}" class="img-fluid rounded">
+                                @else
+                                    <img src="{{ asset('images/default.jpg') }}" alt="{{ $brand->name }}" class="img-fluid rounded"> <!-- Fallback image -->
+                                @endif
                                 <div class="blog-item-content bg-white p-5">
                                     <h3 class="mt-3 mb-3">
                                         <a href="{{ route('brand.showdetails', $brand->id) }}">{{ $brand->name }}</a>
@@ -39,7 +43,7 @@
                                         {{ $brand->lunched_at }}
                                     </p>
                                     <p>{{ $brand->description }}</p>
-                                    <a href="{{ route('brands.show', $brand->id) }}" class="btn btn-small btn-main btn-round-full">View Details</a>
+                                    <a href="{{ route('brand.showdetails', $brand->id) }}" class="btn btn-small btn-main btn-round-full">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -48,6 +52,7 @@
             @endforeach
         </div>
     </section>
+    
     
 
 

@@ -149,14 +149,14 @@
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
-                            <a href="https://talabayhotelaqaba.com-jordan.com/" class="image-hvr-effect">
+                            <a href="https://www.instagram.com/talabayresort/" class="image-hvr-effect">
                                 <img src="images/portfolio/Talabay_logo-01[1].png" alt="Talabay Hotels & Resorts"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://talabayhotelaqaba.com-jordan.com/">Talabay Hotels & Resorts</a>
+                                <a href="https://www.instagram.com/talabayresort/">Talabay Hotels & Resorts</a>
                             </h3>
                         </div>
                     </article>
@@ -236,14 +236,14 @@
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
-                            <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR" class="image-hvr-effect">
+                            <a href="https://www.instagram.com/almoghrabipharmacy/" class="image-hvr-effect">
                                 <img src="images/portfolio/mughrabi pharmacy[1].PNG" alt="mughrabi pharmacy"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR">mughrabi pharmacy</a>
+                                <a href="https://www.instagram.com/almoghrabipharmacy/">mughrabi pharmacy</a>
                             </h3>
                         </div>
                     </article>
@@ -254,13 +254,13 @@
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
-                            <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR" class="image-hvr-effect">
+                            <a href="https://www.facebook.com/AMAZONKITCHENS.JO/" class="image-hvr-effect">
                                 <img src="images/portfolio/Amazon[1].PNG" alt="Amazon" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR">Amazon</a>
+                                <a href="https://www.facebook.com/AMAZONKITCHENS.JO/">Amazon</a>
                             </h3>
                         </div>
                     </article>
@@ -270,13 +270,13 @@
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
-                            <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR" class="image-hvr-effect">
+                            <a href="#" class="image-hvr-effect">
                                 <img src="images/portfolio/ALdallah[1].PNG" alt="ALdallah" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR">ALdallah</a>
+                                <a href="#">ALdallah</a>
                             </h3>
                         </div>
                     </article>
@@ -286,13 +286,13 @@
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
-                            <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR" class="image-hvr-effect">
+                            <a href="#" class="image-hvr-effect">
                                 <img src="images/portfolio/Ishq[1].PNG" alt="Ishq" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/AlMoghrabipharmacy/?locale=ar_AR">Ishq</a>
+                                <a href="#">Ishq</a>
                             </h3>
                         </div>
                     </article>
@@ -303,7 +303,7 @@
                     <article class="post-item text-center">
                         <figure>
                             <a href="https://www.facebook.com/mines.gaming2025" class="image-hvr-effect">
-                                <img src="images/portfolio/Mines[1].PNG" alt="Mines" class="post-image img-fluid">
+                                <img src="images/portfolio/mines.PNG" alt="Mines" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -560,8 +560,8 @@
     
             <div class="row">
                 <div class="col-12">
-                    <div class="card bg-transparent border-0">
-                        <div class="card-body mt-2 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+                    <div class="card bg-transparent border-0" >
+                        <div class="card-body   d-flex flex-column flex-lg-row   align-items-center">
                             <!-- Responsive image -->
                             <img src="images/leen photo.jpg" alt="Founder" class="img-fluid col-lg-4 mb-4 mb-lg-0">
                             

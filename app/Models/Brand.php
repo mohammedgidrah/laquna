@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -10,8 +9,14 @@ class Brand extends Model
     use HasFactory;
     protected $guarded = [];
 
+// In Brand.php
     public function category()
     {
         return $this->belongsTo(Category::class);
+    }
+
+    public function images()
+    {
+        return $this->hasMany(BrandImage::class);
     }
 }

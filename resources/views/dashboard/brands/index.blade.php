@@ -49,7 +49,7 @@
             @foreach ($brands as $brand)
             <tr>
                 <td>
-                    <img src="{{ asset('storage/' . $brand->image) }}" style="width: 75px; height: auto; border-radius: 5px;">
+                    <a href="{{url('brandimage/'.$brand->id.'/upload') }}" class="btn btn-info">add images</a>
                 </td>
                 <td>{{ $brand->name }}</td>
                 <td>{{ $brand->lunched_at }}</td>

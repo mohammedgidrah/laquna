@@ -73,7 +73,7 @@
     <table id="add-row" class="display table table-striped table-hover">
         <thead>
                 <tr>
-                    <th>Image</th>
+                    {{-- <th>Image</th> --}}
                     <th> name</th>
                      <th>Email</th>
  
@@ -82,7 +82,7 @@
             </thead>
             <tfoot>
                 <tr>
-                    <th>Image</th>
+                    {{-- <th>Image</th> --}}
                     <th> name</th>
                      <th>Email</th>
  
@@ -92,10 +92,7 @@
             <tbody>
                 @foreach ($users as $user)
                     <tr>
-                        <td>
-                            <img src="{{ asset('storage/' . $user->image) }}"
-                                style="width: 75px; height: auto; border-radius: 50%;">
-                        </td>
+              
                         <td>{{ $user->name }}</td>
                          <td>{{ $user->email }}</td>
  
