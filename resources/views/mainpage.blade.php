@@ -557,72 +557,26 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row  ">
-                <div class=" w-100">
+    
+            <div class="row">
+                <div class="col-12">
                     <div class="card bg-transparent border-0">
-
-
-                        <div class="card-body mt-2"
-                            style="display: flex; justify-content: space-around; align-items: center;">
-                            <img src="images/leen photo.jpg" alt="" class="col-lg-4    ">
-
-
-                            <h3 class="mt-3 mb-5 lh-36 text-white"
-                                style="font-size: 17px; font-weight: 100; width: 450px"> Founded by Leen Sabti, a
-                                seasoned retail and graphic designer with over 10 years of experience, Laguna Visual
-                                Communications is driven by a passion for innovation and a commitment to excellence.
-                                Leen’s vision is to blend creativity with strategy, offering clients powerful, visually
-                                impactful solutions that stand out in a competitive market. </h3>
-
-                            {{-- <a href="blog-single.html"
-                                class="btn btn-small btn-solid-border btn-round-full text-white">Learn More</a> --}}
+                        <div class="card-body mt-2 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+                            <!-- Responsive image -->
+                            <img src="images/leen photo.jpg" alt="Founder" class="img-fluid col-lg-4 mb-4 mb-lg-0">
+                            
+                            <!-- Responsive text block -->
+                            <h3 class="mt-3 mb-5 lh-36 text-white" style="font-size: 17px; font-weight: 100; max-width: 450px;">
+                                Founded by Leen Sabti, a seasoned retail and graphic designer with over 10 years of experience, Laguna Visual Communications is driven by a passion for innovation and a commitment to excellence.
+                                Leen’s vision is to blend creativity with strategy, offering clients powerful, visually impactful solutions that stand out in a competitive market.
+                            </h3>
                         </div>
                     </div>
                 </div>
-
-                {{-- <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="card border-0 bg-transparent">
-                        <img src="images/blog/2.jpg" alt="" class="img-fluid rounded">
-
-                        <div class="card-body mt-2">
-                            <div class="blog-item-meta">
-                                <a href="#" class="text-white-50">Design<span class="ml-2 mr-2">/</span></a>
-                                <a href="#" class="text-white-50">Ui/Ux<span class="ml-2">/</span></a>
-                                <a href="#" class="text-white-50 ml-2"><i class="fa fa-user mr-2"></i>admin</a>
-                            </div>
-
-                            <h3 class="mt-3 mb-5 lh-36"><a href="#" class="text-white">Interactivity design
-                                    may connect consumer</a></h3>
-
-                            <a href="blog-single.html"
-                                class="btn btn-small btn-solid-border btn-round-full text-white">Learn More</a>
-                        </div>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="card border-0 bg-transparent">
-                        <img src="images/blog/3.jpg" alt="" class="img-fluid rounded">
-
-                        <div class="card-body mt-2">
-                            <div class="blog-item-meta">
-                                <a href="#" class="text-white-50">Design<span class="ml-2 mr-2">/</span></a>
-                                <a href="#" class="text-white-50">Ui/Ux<span class="ml-2">/</span></a>
-                                <a href="#" class="text-white-50 ml-2"><i class="fa fa-user mr-2"></i>admin</a>
-                            </div>
-
-                            <h3 class="mt-3 mb-5 lh-36"><a href="#" class="text-white">Marketing Strategy
-                                    to bring more affect</a></h3>
-
-                            <a href="blog-single.html"
-                                class="btn btn-small btn-solid-border btn-round-full text-white">Learn More</a>
-                        </div>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </section>
+    
 
     <section class="mt-70 position-relative">
         <div class="container">

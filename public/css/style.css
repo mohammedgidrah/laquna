@@ -1785,6 +1785,64 @@ a {
         padding: 40px;
     }
 }
+/* Ensures the text and image stack properly on smaller screens */
+@media (max-width: 1200px) {
+  .card-body {
+      flex-direction: column; /* Stack items for medium-sized screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .section-title h2 {
+      font-size: 1.8rem; /* Slightly smaller font for tablets */
+  }
+
+  .card-body h3 {
+      font-size: 16px; /* Smaller font for tablets */
+  }
+
+  .card-body img {
+      max-width: 100%; /* Image takes full width on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+      font-size: 1.6rem; /* Smaller font size for mobile screens */
+  }
+
+  .card-body h3 {
+      font-size: 14px; /* Even smaller font for mobile screens */
+      max-width: 100%; /* Ensure text takes full width */
+  }
+
+  .card-body img {
+      width: 100%; /* Make image full width on small screens */
+      margin-bottom: 20px; /* Add spacing below the image */
+  }
+
+  /* Ensure the card content aligns well on small screens */
+  .card-body {
+      text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title h2 {
+      font-size: 1.4rem; /* Smaller font size for extra-small screens */
+  }
+
+  .card-body h3 {
+      font-size: 12px; /* Adjust text size for readability */
+      max-width: 100%;
+  }
+
+  .card-body img {
+      width: 100%; /* Ensure the image is responsive on extra-small screens */
+      margin-bottom: 15px;
+  }
+}
+
 
 /* For screens up to 400px (very small screens) */
 @media (max-width: 400px) {

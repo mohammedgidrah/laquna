@@ -22,7 +22,7 @@
 		<div class="container">
 		  <a class="navbar-brand" href="index.html">
 		  	<!-- Mega<span>kit.</span> -->
-			 <img src="images/laquna.png" alt="">
+			 <img src="{{ asset('images/laquna.png')}}" alt="">
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
