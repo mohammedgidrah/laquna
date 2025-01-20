@@ -130,16 +130,17 @@ document.addEventListener("DOMContentLoaded", () => {
 const portfolioItems = [
     { title: "Talabay Hotels & Resorts", img: "images/portfolio/Talabay_logo-01[1].png" },
     { title: "Murasakai Restobar", img: "images/portfolio/Mursakai logo[1].png" },
-    { title: "MIRACHI INDIAN CUSINE", img: "images/portfolio/Mirchi[1].png" },
-    { title: "SPACE RESTOCAFE", img: "images/portfolio/Space[1].PNG" },
-    { title: "HIGH FIT", img: "images/portfolio/Highfit[1].PNG" },
-    { title: "mughrabi pharmacy", img: "images/portfolio/mughrabi pharmacy[1].PNG" },
-    { title: "Amazon", img: "images/portfolio/Amazon[1].PNG" },
-    { title: "ALdallah", img: "images/portfolio/ALdallah[1].PNG" },
-    { title: "Ishq", img: "images/portfolio/Ishq[1].PNG" },
-    { title: "Mines", img: "images/portfolio/Mines[1].PNG" },
+    { title: "Mirachi Indian Cusine", img: "images/portfolio/Mirchi[1].png" },
+    { title: "Space Restocafe", img: "images/portfolio/Space[1].PNG" },
+    { title: "High Fit  Fitness Center ", img: "images/portfolio/Highfit[1].PNG" },
+    { title: "Almughrabi Pharmacy", img: "images/portfolio/mughrabi pharmacy[1].PNG" },
+    { title: "Amazon Kitchen & Industrial Wood", img: "images/portfolio/Amazon[1].PNG" },
+    { title: "Aldallah", img: "images/portfolio/ALdallah[1].PNG" },
+    { title: "Ishq Hotel", img: "images/portfolio/Ishq[1].PNG" },
+    { title: "Mines Gaming Center", img: "images/portfolio/Mines[1].PNG" },
     { title: "Mazaya", img: "images/portfolio/Mazaya[1].PNG" },
-    { title: "Myaqaba", img: "images/portfolio/myaqaba[1].PNG" }
+    { title: "MyAqaba", img: "images/portfolio/myaqaba[1].PNG" },
+    { title: "Marina Restaurant & Fishery", img: "images/portfolio/marina.PNG" }
 ];
 
 const itemsPerPage = 6; // Show 6 items per page

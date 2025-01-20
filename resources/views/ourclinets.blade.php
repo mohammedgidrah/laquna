@@ -44,8 +44,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-7 text-center">
                 <div class="section-title">
-                    <span class="h6 text-color">Our works</span>
-                    <h2 class="mt-3 content-title">We have done lots of works, let's check some</h2>
+                    {{-- <span class="h6 text-color">Our Clients</span> --}}
+                    <h2 class="mt-3 content-title">Our Clients</h2>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
                         <img src="images/portfolio/Mirchi[1].png" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">MIRACHI INDIAN CUSINE</h3>
+                            <h3 class="mb-0 text-white">Mirachi Indian Cusine</h3>
                         </div>
                     </a>
                 </div>
@@ -97,7 +97,7 @@
                         <img src="images/portfolio/Space[1].PNG" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">SPACE RESTOCAFE</h3>
+                            <h3 class="mb-0 text-white">Space Restocafe</h3>
                         </div>
                     </a>
                 </div>
@@ -109,7 +109,7 @@
                         <img src="images/portfolio/Highfit[1].PNG" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">HIGH FIT</h3>
+                            <h3 class="mb-0 text-white">High Fit  Fitness Center</h3>
                         </div>
                     </a>
                 </div>
@@ -121,7 +121,7 @@
                         <img src="images/portfolio/mughrabi pharmacy[1].PNG" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">mughrabi pharmacy</h3>
+                            <h3 class="mb-0 text-white">Almughrabi Pharmacy</h3>
                         </div>
                     </a>
                 </div>
@@ -132,7 +132,7 @@
                         <img src="images/portfolio/Amazon[1].PNG" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">Amazon</h3>
+                            <h3 class="mb-0 text-white">Amazon Kitchen & Industrial Wood</h3>
                         </div>
                     </a>
                 </div>
@@ -154,7 +154,7 @@
                         <img src="images/portfolio/Ishq[1].PNG" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">Ishq</h3>
+                            <h3 class="mb-0 text-white">Ishq Hotel</h3>
                         </div>
                     </a>
                 </div>
@@ -165,7 +165,7 @@
                         <img src="images/portfolio/Mines[1].PNG" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">Mines</h3>
+                            <h3 class="mb-0 text-white">Mines Gaming Center</h3>
                         </div>
                     </a>
                 </div>
@@ -187,7 +187,18 @@
                         <img src="images/portfolio/myaqaba[1].PNG" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">Myaqaba</h3>
+                            <h3 class="mb-0 text-white">MyAqaba</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 page-2">
+                <div class="portflio-item position-relative mb-4">
+                    <a href="images/portfolio/marina.PNG" class="popup-gallery">
+                        <img src="images/portfolio/myaqaba[1].PNG" alt="" class="img-fluid w-100">
+                        <i class="ti-plus overlay-item"></i>
+                        <div class="portfolio-item-content">
+                            <h3 class="mb-0 text-white">MyAqaba</h3>
                         </div>
                     </a>
                 </div>

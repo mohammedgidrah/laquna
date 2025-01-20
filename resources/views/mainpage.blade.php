@@ -140,6 +140,8 @@
                 aria-label="Slide 11"></button>
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="11"
                 aria-label="Slide 12"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="12"
+                aria-label="Slide 13"></button>
         </div>
 
         <!-- Wrapper for slides -->
@@ -193,7 +195,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.instagram.com/mirchi.aqaba/?hl=ar">MIRACHI INDIAN CUSINE</a>
+                                <a href="https://www.instagram.com/mirchi.aqaba/?hl=ar">Mirachi Indian Cusine</a>
                             </h3>
                         </div>
                     </article>
@@ -210,7 +212,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.instagram.com/space_restocafe/">SPACE RESTOCAFE</a>
+                                <a href="https://www.instagram.com/space_restocafe/">Space Restocafe</a>
                             </h3>
                         </div>
                     </article>
@@ -226,7 +228,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/HIGH.FIT.JO/?locale=ar_AR">HIGH FIT</a>
+                                <a href="https://www.facebook.com/HIGH.FIT.JO/?locale=ar_AR">High Fit  Fitness Center </a>
                             </h3>
                         </div>
                     </article>
@@ -243,7 +245,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.instagram.com/almoghrabipharmacy/">mughrabi pharmacy</a>
+                                <a href="https://www.instagram.com/almoghrabipharmacy/">Almughrabi Pharmacy</a>
                             </h3>
                         </div>
                     </article>
@@ -260,7 +262,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/AMAZONKITCHENS.JO/">Amazon</a>
+                                <a href="https://www.facebook.com/AMAZONKITCHENS.JO/">Amazon Kitchen & Industrial Wood</a>
                             </h3>
                         </div>
                     </article>
@@ -276,7 +278,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="#">ALdallah</a>
+                                <a href="#">Aldallah</a>
                             </h3>
                         </div>
                     </article>
@@ -292,7 +294,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="#">Ishq</a>
+                                <a href="#">Ishq Hotel</a>
                             </h3>
                         </div>
                     </article>
@@ -308,7 +310,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/mines.gaming2025">Mines</a>
+                                <a href="https://www.facebook.com/mines.gaming2025">Mines Gaming Center</a>
                             </h3>
                         </div>
                     </article>
@@ -340,7 +342,23 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR">myaqaba</a>
+                                <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR">MyAqaba</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR" class="image-hvr-effect">
+                                <img src="images/portfolio/marina.PNG" alt="marina" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR">Marina Restaurant & Fishery</a>
                             </h3>
                         </div>
                     </article>
