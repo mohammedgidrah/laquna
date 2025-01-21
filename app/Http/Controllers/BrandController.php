@@ -105,6 +105,7 @@ class BrandController extends Controller
     $request->validate([
         'name' => 'required|string|max:255',
         'lunched_at' => 'required|date',
+        'category_id' => 'required|exists:categories,id',
         'description' => 'required|string',
         'images' => 'nullable|array', // Validate array of images
         'images.*' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // Optional image upload
@@ -136,6 +137,7 @@ class BrandController extends Controller
     $brand->name = $request->name;
     $brand->lunched_at = $request->lunched_at;
     $brand->description = $request->description;
+    $brand->category_id = $request->category_id;
     $brand->save();
 
     return redirect()->route('brands.index')->with('success', 'Brand updated successfully!');

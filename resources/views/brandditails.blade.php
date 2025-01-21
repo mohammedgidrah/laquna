@@ -50,19 +50,29 @@
     <!-- Mockups Section -->
     <section class="section" style="background-color: #ffffff;">
         <div class="container">
-            <div class="row" style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+            <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
                 <!-- Mockups -->
-                <div class="col-lg-7 col-md-6 mb-4">
-                    <div class="image-container text-center" style="padding: 30px; max-width: 700px;">
-                        <h2 class="text-center">Mockups</h2>
-                        @foreach ($brandimages as $image)
-                            <img src="{{ asset('storage/' . $image->image_path) }}" alt="Mockup" class="branding-image mb-3" style="width: 100%; max-width: 600px; height: auto;">
-                        @endforeach
-                    </div>
+                <div class="col-lg-12 text-center mb-4">
+                    <h2>Mockups</h2>
                 </div>
+                @foreach ($brandimages as $image)
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4" style="padding: 15px;">
+                        <div class="image-container text-center" style="padding: 15px; border: 1px solid #ddd; border-radius: 8px;">
+                            <img src="{{ asset('storage/' . $image->image_path) }}" alt="Mockup" class="branding-image" 
+                                 style="width: 100%; max-width: 700px; height: auto; object-fit: contain;">
+                        </div>
+                    </div>
+                @endforeach
             </div>
         </div>
     </section>
+    
+    
+    
+    
+    
+    
+    
 @endsection
 
 <!-- Push styles -->

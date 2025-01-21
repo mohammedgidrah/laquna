@@ -42,7 +42,7 @@
                                         <span class="text-black text-capitalize mr-3 ti-time mr-1"></span>
                                         {{ $brand->lunched_at }}
                                     </p>
-                                    <p>{{ $brand->description }}</p>
+                                    {{-- <p>{{ $brand->description }}</p> --}}
                                     <a href="{{ route('brand.showdetails', $brand->id) }}" class="btn btn-small btn-main btn-round-full">View Details</a>
                                 </div>
                             </div>
@@ -65,19 +65,5 @@
 
          
 
-    <section class="cta-2">
-        <div class="container">
-            <div class="cta-block p-5 rounded">
-                <div class="row justify-content-center align-items-center ">
-                    <div class="col-lg-7">
-                        <span class="text-color">For Every type business</span>
-                        <h2 class="mt-2 text-white">Entrust Your Project to Our Best Team of Professionals</h2>
-                    </div>
-                    <div class="col-lg-4">
-                        <a href="{{ url('contact') }}" class="btn btn-main btn-round-full float-right">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
 @endsection
