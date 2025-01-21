@@ -95,3 +95,4 @@ Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.
 Route::get('brandimage/{id}/upload', [BrandImageController::class, 'index']);
 Route::post('/brand/{id}/upload-images', [BrandImageController::class, 'upload'])->name('brandimage.upload');
 Route::delete('brand_img/{brandId}/delete/{imageId}', [BrandImageController::class, 'destroy'])->name('brandimage.delete');
+Route::post('/brands/{brandId}/set-main-image', [BrandImageController::class, 'setMainImage'])->name('brands.setMainImage');

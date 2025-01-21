@@ -19,4 +19,10 @@ class Brand extends Model
     {
         return $this->hasMany(BrandImage::class);
     }
+    // In Brand.php (Model)
+public function mainImage()
+{
+    return $this->hasOne(BrandImage::class); // assuming you have a BrandImage model for storing images
+}
+
 }

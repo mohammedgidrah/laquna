@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                        <h1 class="text-capitalize mb-4 text-lg">Projects Details </h1>
+                        <h1 class="text-capitalize mb-4 text-lg">Projects Details</h1>
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="{{ url('/') }}" class="text-white">Home</a></li>
                             <li class="list-inline-item"><span class="text-white">/</span></li>
@@ -18,47 +18,73 @@
         </div>
     </section>
 
-    <!-- Brand Details Section -->
-    <section class="section" style="background-color: #f5f8f9">
+    <!-- Main Image Section -->
+    {{-- <section class="section text-center" style="background-color: #f5f8f9; padding: 40px 0;">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-md-10">
-                    <div class="blog-item">
-                        @if ($mainImage && file_exists(public_path('storage/' . $mainImage->image_path))) 
-                            <!-- Check if the mainImage exists and the image file exists -->
-                            <img src="{{ asset('storage/' . $mainImage->image_path) }}" alt="{{ $brand->name }}" class="img-fluid rounded">
-                        @else
-                            <img src="{{ asset('images/default.jpg') }}" alt="{{ $brand->name }}" class="img-fluid rounded"> <!-- Fallback image -->
-                        @endif
-    
-                        <div class="blog-item-content bg-white p-5">
-                            <h1 class="mb-3">{{ $brand->name }}</h1>
-                            <div class="blog-item-meta bg-gray py-2 px-3 mb-4">
-                                <span class="text-dark"><strong>Category:</strong> {{ $brand->category->name }}</span>
-                                <br>
-                                <span class="text-dark"><strong>Launched At:</strong> {{ $brand->lunched_at }}</span>
-                            </div>
-                            <p class="mb-4">{{ $brand->description }}</p>
-                            <a href="{{ url('projects') }}" class="btn btn-primary">Back to brand</a>
+            <h2 class="mb-4">Main Image</h2>
+            @if ($mainImage && file_exists(public_path('storage/' . $mainImage->image_path))) 
+                <!-- Check if the main image exists and the image file exists -->
+                <img src="{{ asset('storage/' . $mainImage->image_path) }}" 
+                     alt="{{ $brand->name }}" 
+                     class="img-fluid rounded" 
+                     style="max-width: 800px; height: auto; object-fit: contain;">
+            @else
+                <img src="{{ asset('images/default.jpg') }}" 
+                     alt="{{ $brand->name }}" 
+                     class="img-fluid rounded" 
+                     style="max-width: 800px; height: auto; object-fit: contain;"> <!-- Fallback image -->
+            @endif
+        </div>
+    </section> --}}
+
+    <!-- Brand Details Section -->
+<!-- Brand Details Section -->
+<!-- Brand Details Section -->
+<section class="section" style="background-color: #f5f8f9">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="blog-item">
+                         <!-- Check if the main image exists -->
+                        <img src="{{ asset('storage/' . $brand->main_image) }}" 
+                             alt="{{ $brand->name }}" 
+                             class="img-fluid rounded" 
+                             style="width: 100%; height: auto; object-fit: cover;">
+ 
+
+                    <div class="blog-item-content bg-white p-5">
+                        <h1 class="mb-3">{{ $brand->name }}</h1>
+                        <div class="blog-item-meta bg-gray py-2 px-3 mb-4">
+                            <span class="text-dark"><strong>Category:</strong> {{ $brand->category->name }}</span>
+                            <br>
+                            <span class="text-dark"><strong>Launched At:</strong> {{ $brand->lunched_at }}</span>
                         </div>
+                        <p class="mb-4">{{ $brand->description }}</p>
+                        <a href="{{ url('projects') }}" class="btn btn-primary">Back to brand</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
+
 
     <!-- Mockups Section -->
-    <section class="section" style="background-color: #ffffff;">
+    <section class="section" style="background-color: #f9f9f9;">
         <div class="container">
-            <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
-                <!-- Mockups -->
+            <div class="row justify-content-center">
                 <div class="col-lg-12 text-center mb-4">
                     <h2>Mockups</h2>
                 </div>
                 @foreach ($brandimages as $image)
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4" style="padding: 15px;">
-                        <div class="image-container text-center" style="padding: 15px; border: 1px solid #ddd; border-radius: 8px;">
-                            <img src="{{ asset('storage/' . $image->image_path) }}" alt="Mockup" class="branding-image" 
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                        <div class="image-container text-center" 
+                             style="padding: 15px; border: 1px solid #ddd; border-radius: 8px;">
+                            <img src="{{ asset('storage/' . $image->image_path) }}" 
+                                 alt="Mockup" 
+                                 class="branding-image" 
                                  style="width: 100%; max-width: 700px; height: auto; object-fit: contain;">
                         </div>
                     </div>
@@ -66,13 +92,6 @@
             </div>
         </div>
     </section>
-    
-    
-    
-    
-    
-    
-    
 @endsection
 
 <!-- Push styles -->

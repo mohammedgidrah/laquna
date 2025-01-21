@@ -63,5 +63,24 @@ class BrandImageController extends Controller
         return redirect()->back()->with('success', 'Image deleted successfully!');
     }
     
-    
+    public function setMainImage(Request $request, $brandId)
+{
+    $request->validate([
+        'image_id' => 'required|exists:brand_images,id',
+    ]);
+
+    // Find the brand and the selected image
+    $brand = Brand::findOrFail($brandId);
+    $brandImage = BrandImage::where('id', $request->image_id)
+                            ->where('brand_id', $brandId)
+                            ->firstOrFail();
+
+    // Update the brand's main_image field
+    $brand->update([
+        'main_image' => $brandImage->image_path,
+    ]);
+
+    return redirect()->back()->with('success', 'Main image updated successfully!');
+}
+
 }
