@@ -41,13 +41,7 @@
                                 @enderror
                             </div>
 
-                            {{-- <div class="form-group">
-                                <label for="last_name">Last name</label>
-                                <input type="text" class="form-control" id="last_name" name="last_name" value="{{ $users->last_name }}">
-                                @error('last_name')
-                                    <div class="text-danger">{{ $message }}</div>
-                                @enderror
-                            </div> --}}
+ 
 
                             <div class="form-group">
                                 <label for="email">Email</label>

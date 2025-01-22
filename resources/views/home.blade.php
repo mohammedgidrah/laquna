@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
-
     <meta name="author" content="themefisher.com">
+    <meta name="keywords" content="Branding, Social Media, Graphic Design, Photography, Videography, Events, Wood Manufacturing, Web Development, Content Creation, Advertising">
 
-    <title>Megakit| Html5 Agency template</title>
+    <title> @yield('title')</title>
 
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -31,26 +31,19 @@
 
     @stack('styles')
 
-    
 </head>
 
 <body>
 
-
-
     <!-- Header Start -->
-
     @include('homeincludes.nav')
-
     <!-- Header Close -->
 
     <div class="main-wrapper ">
         <!-- Slider Start -->
-
         @yield('content')
         <!-- footer Start -->
         @include('homeincludes.footer')
-
     </div>
 
     <!--

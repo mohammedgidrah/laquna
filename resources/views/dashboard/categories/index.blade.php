@@ -92,17 +92,12 @@
             <tbody>
                 @foreach ($categories as $category)
                     <tr>
-                        {{-- <td>
-                            <img src="{{ asset('storage/' . $user->image) }}"
-                                style="width: 75px; height: auto; border-radius: 50%;">
-                        </td> --}}
-                        <td>{{ $category->name }}</td>
-                         {{-- <td>{{ $category->email }}</td> --}}
  
+                        <td>{{ $category->name }}</td>
+  
                         <td>
                             <div class="form-button-action d-flex justify-content-start">
-                                {{-- @if ($user->role !== 'admin') --}}
-                                    <a href="{{ route('categories.edit', $category->id) }}"
+                                     <a href="{{ route('categories.edit', $category->id) }}"
                                         class="btn btn-link btn-primary btn-lg" data-original-title="Edit User">
                                         <i class="fa fa-edit"></i>
                                     </a>
@@ -111,8 +106,7 @@
                                         class="btn btn-link btn-danger btn-lg" data-original-title="Delete User">
                                         <i class="fa fa-times"></i>
                                     </a>
-                                {{-- @endif --}}
-                            </div>
+                             </div>
                         </td>
                     </tr>
 
@@ -149,18 +143,7 @@
                 @endforeach
             </tbody>
         </table>
-        {{-- <div class="d-flex justify-content-between align-items-center  p-4  ">
-            {{ $users->appends(request()->query())->links('vendor.pagination.bootstrap-4') }}
-
-            <div class="d-flex justify-content-end align-items-center">
-                <a href="{{ route('users.create') }}" class="btn btn-primary me-2">
-                    <i class="fa fa-plus"></i> Create User
-                </a>
-                <a href="{{ route('users.trashed') }}" class="btn btn-danger">
-                    <i class="fa fa-trash"></i> View Trashed Users
-                </a>
-            </div>
-        </div> --}}
+ 
     </div>
     @else
     <div class="alert alert-warning text-center" role="alert">

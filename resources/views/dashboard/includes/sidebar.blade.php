@@ -2,8 +2,7 @@
     <div class="sidebar-logo">
         <!-- Logo Header -->
         <div class="logo-header" data-background-color="dark">
-            {{-- <img src="{{ asset('images/Screenshot_13-1-2025_171612_.jpeg') }}" alt="Footer Logo"> --}}
-
+ 
             <a href={{ route('users.index') }} class="logo">
                 <img src="{{ asset('images/laquna.png') }}" style="height: 100px;width: 175px;padding-top: 20px" alt="navbar brand" class="navbar-brand logo-img" />
               
@@ -25,28 +24,8 @@
     <div class="sidebar-wrapper scrollbar scrollbar-inner">
         <div class="sidebar-content">
             <ul class="nav nav-secondary">
-                {{-- <li class="nav-section">
-                    <span class="sidebar-mini-icon">
-                        <i class="fa fa-ellipsis-h"></i>
-                    </span>
-                    <h4 class="text-section">dashboard</h4>
-                </li> --}}
-                {{-- <li class="nav-item active">
-                    <a href={{ route('status') }} class="collapsed" aria-expanded="false">
-                        <i class="fas fa-home"></i>
-                        <p>Dashboard</p>
-                        <span class="caret"></span>
-                    </a>
-
-                </li> --}}
-                {{-- <li class="nav-section">
-                    <span class="sidebar-mini-icon">
-                        <i class="fa fa-ellipsis-h"></i>
-                    </span>
-                    <h4 class="text-section">Components</h4>
-                </li> --}}
-                {{-- users --}}
-                <li class="nav-item">
+ 
+                 <li class="nav-item">
                     <a data-bs-toggle="collapse" href="#users" aria-expanded="false" aria-controls="users">
                         <i class="fa-solid fa-users"></i>
                         <p>users</p>
@@ -112,22 +91,7 @@
                 </li>
 
 
-                {{-- <li class="nav-item">
-                    <a data-bs-toggle="collapse" href="#orders" aria-expanded="false" aria-controls="orders">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <p>orders</p>
-                        <span class="caret"></span>
-                    </a>
-                    <div class="collapse" id="orders">
-                        <ul class="nav nav-collapse">
-                            <li>
-                                <a href="{{ route('ordersdash.index') }}">
-                                    <span class="sub-item">All orders</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </li> --}}
+  
 
 
 

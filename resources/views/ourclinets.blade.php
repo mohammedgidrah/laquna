@@ -1,25 +1,8 @@
 @extends('home')
+@section('title', 'Our Clinets')
 
 @section('content')
-<style>
-    .page-indicator {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: #007bff;
-    color: white;
-    border-radius: 50%;
-    line-height: 30px;
-    text-align: center;
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-.btn {
-    margin: 0 10px;
-}
-
-</style>
+ 
 <section class="page-title bg-1">
     <div class="container">
       <div class="row">
@@ -217,24 +200,6 @@
     </div>
 </section>
 
-<!-- Pagination Script -->
-
-{{-- <section class="cta-2">
-    <div class="container">
-        <div class="cta-block p-5 rounded">
-            <div class="row justify-content-center align-items-center ">
-                <div class="col-lg-7">
-                    <span class="text-color">For Every type business</span>
-                    <h2 class="mt-2 text-white">Entrust Your Project to Our Best Team of Professionals</h2>
-                </div>
-                <div class="col-lg-4">
-                    <a href="{{url('contact')}}" class="btn btn-main btn-round-full float-right">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-<!-- section portfolio END -->
+ 
  
 @endsection

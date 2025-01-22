@@ -9,8 +9,7 @@
                     <ul class="list-unstyled footer-menu lh-35">
                         <li><a href="{{ url('/about') }}">About</a></li>
                         <li><a href="{{ url('/services') }}">Services</a></li>
-                        <!-- <li><a href="team.html">Team</a></li> -->
-                        <li><a href="{{ url('/contact') }}">Contact</a></li>
+                         <li><a href="{{ url('/contact') }}">Contact</a></li>
                         <li><a href="{{ url('/projects') }}">Projects</a></li>
                     </ul>
                 </div>
@@ -22,8 +21,7 @@
                     <div class="logo mb-4">
                         <img src="{{ asset('images/Screenshot_19-1-2025_14494_-removebg-preview.png') }}" alt="Footer Logo">
                      </div>
-                     {{-- <span>5555555</span> --}}
-                     {{-- <a href="mailto:leensabti@lagunavco.com"><span class="text-color h4">leensabti@lagunavco.com</span></a> --}}
+                     
                 </div>
             </div>
         </div>

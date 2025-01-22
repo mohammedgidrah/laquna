@@ -1,5 +1,6 @@
 @extends('home')
-
+@section('title', 'Home')
+ 
 @section('content')
    
     <section class="slider">
@@ -381,94 +382,7 @@
     </div>
 
 
-    {{-- <section class="section service border-top">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 text-center">
-                    <div class="section-title">
-                        <span class="h6 text-color">Our Services</span>
-                        <h2 class="mt-3 content-title ">A comprehensive suite of creative services, tailored to meet
-                            diverse needs.</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
-                        <i class="ti-vector"></i>
-                        <h4>Branding</h4>
-                        <p> </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
-                        <i class="fa fa-share-alt"></i>
-                        <h4 class="mb-3">Social Media</h4>
-                        <p> </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
-                        <i class="fa fa-paint-brush"></i>
-                        <h4 class="mb-3"> Graphic Design </h4>
-                        <p> </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6" style="padding-top: 35px;">
-                    <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
-                        <i class="fa fa-camera"></i>
-                        <h4 class="mb-3">Photography & Videography </h4>
-                        <p> </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6" style="padding-top: 35px;">
-                    <div class="service-item mb-5" style="display: flex; padding-top: 13px; align-items: center;">
-                        <i class="ti-layers"></i>
-                        <h4 class="mb-3">Events </h4>
-                        <p> </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6" style="padding-top: 35px;">
-                    <div class="service-item mb-5" style="display: flex; padding-top: 13px; align-items: center; ">
-                        <i class="fa fa-cogs"></i>
-                        <h4 class="mb-3"> Wood Manufacturing</h4>
-                        <p> </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-item mb-5" style="display: flex; padding-top: 13px; align-items: center;">
-                        <i class="ti-desktop"></i>
-                        <h4 class="mb-3">Web development</h4>
-                        <p> </p>
-                    </div>
-                </div>
-
-
-
-
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
-                        <i class="ti-pencil-alt"></i>
-                        <h4 class="mb-3">Content creation</h4>
-                        <p> </p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-item mb-5 mb-lg-0" style="display: flex; padding-top: 13px; align-items: center;">
-                        <i class="fa fa-bullhorn"></i>
-                        <h4 class="mb-3">Advertising</h4>
-                        <p> </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> --}}
+ 
     <!--  Section Services End -->
     <!-- Section Cta Start -->
     <section class="section cta">
@@ -478,94 +392,19 @@
                     <div class="cta-item  bg-white p-5 rounded">
                         <h2 class="mt-2 mb-4">Entrust Your Project to our Best Team of Professionals</h2>
                         <p class="lead mb-4">Have any project on mind? For immidiate support :</p>
-                        <h3><i class="ti-mobile mr-3 text-color"></i>+962 797992323 </h3>
-                        <span style="padding-left: 5px"> <i class="fa fa-envelope mr-2 color-one"></i><a
+                        <h3 class="number"><i class="ti-mobile mr-3 text-color"></i>+962 797992323 </h3>
+                        <span class="email" style="padding-left: 5px"> <i class="fa fa-envelope mr-2 color-one"></i><a
                                 href="mailto:leensabti@lagunavco.com"> <span
                                     style="padding-left: 10px">leensabti@lagunavco.com</span></a>
                         </span>
-                        {{-- <a href="mailto:leensabti@lagunavco.com" ><i class="fa fa-envelope mr-2"></i><span>leensabti@lagunavco.com</span></a> --}}
-
+ 
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--  Section Cta End-->
-    <!-- Section Testimonial Start -->
-    {{-- <section class="section testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 ">
-                    <div class="section-title">
-                        <span class="h6 text-color">Clients testimonial</span>
-                        <h2 class="mt-3 content-title">Check what's our clients say about us</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row testimonial-wrap">
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error
-                            alias debitis atque consequuntur natus iusto recusandae numquam corrupti facilis
-                            blanditiis.</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis
-                            temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae
-                            .</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error
-                            alias debitis atque consequuntur natus iusto recusandae numquam corrupti.</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">James Watson</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis
-                            temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae
-                            .</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!-- Section Testimonial End -->
-    <section class="section latest-blog bg-2">
+     <section class="section latest-blog bg-2">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">

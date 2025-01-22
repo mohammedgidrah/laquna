@@ -1,4 +1,5 @@
 @extends('home')
+@section('title', 'Projects')
 
 @section('content')
     <section class="page-title bg-1">

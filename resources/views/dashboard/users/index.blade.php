@@ -146,18 +146,7 @@
                 @endforeach
             </tbody>
         </table>
-        {{-- <div class="d-flex justify-content-between align-items-center  p-4  ">
-            {{ $users->appends(request()->query())->links('vendor.pagination.bootstrap-4') }}
-
-            <div class="d-flex justify-content-end align-items-center">
-                <a href="{{ route('users.create') }}" class="btn btn-primary me-2">
-                    <i class="fa fa-plus"></i> Create User
-                </a>
-                <a href="{{ route('users.trashed') }}" class="btn btn-danger">
-                    <i class="fa fa-trash"></i> View Trashed Users
-                </a>
-            </div>
-        </div> --}}
+ 
     </div>
     @else
     <div class="alert alert-warning text-center" role="alert">

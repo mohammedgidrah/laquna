@@ -1,4 +1,5 @@
-@extends('home') <!-- This assumes 'home' is your layout -->
+@extends('home') 
+@section('title', 'brandditails')
 
 @section('content')
     <section class="page-title bg-1">
@@ -18,27 +19,7 @@
         </div>
     </section>
 
-    <!-- Main Image Section -->
-    {{-- <section class="section text-center" style="background-color: #f5f8f9; padding: 40px 0;">
-        <div class="container">
-            <h2 class="mb-4">Main Image</h2>
-            @if ($mainImage && file_exists(public_path('storage/' . $mainImage->image_path))) 
-                <!-- Check if the main image exists and the image file exists -->
-                <img src="{{ asset('storage/' . $mainImage->image_path) }}" 
-                     alt="{{ $brand->name }}" 
-                     class="img-fluid rounded" 
-                     style="max-width: 800px; height: auto; object-fit: contain;">
-            @else
-                <img src="{{ asset('images/default.jpg') }}" 
-                     alt="{{ $brand->name }}" 
-                     class="img-fluid rounded" 
-                     style="max-width: 800px; height: auto; object-fit: contain;"> <!-- Fallback image -->
-            @endif
-        </div>
-    </section> --}}
-
-    <!-- Brand Details Section -->
-<!-- Brand Details Section -->
+ 
 <!-- Brand Details Section -->
 <section class="section" style="background-color: #f5f8f9">
     <div class="container">

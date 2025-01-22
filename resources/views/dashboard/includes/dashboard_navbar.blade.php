@@ -20,8 +20,7 @@
         <div class="container-fluid">
             <ul class="navbar-nav topbar-nav ms-md-auto align-items-center">
                 <!-- Notifications (Optional, remove or keep as needed) -->
-                {{-- Your notifications section can stay as is --}}
-                
+                 
                 <!-- User Profile -->
                 <li class="nav-item topbar-user dropdown hidden-caret">
                     <a class="dropdown-toggle profile-pic" data-bs-toggle="dropdown" href="#" aria-expanded="false">
