@@ -78,7 +78,7 @@
                         <img src="images/portfolio/ADS.png" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
                         <div class="portfolio-item-content">
-                            <h3 class="mb-0 text-white">Aqaba Development Corp</h3>
+                            <h3 class="mb-0 text-white">Aqaba Development Corpration</h3>
                         </div>
                     </a>
                 </div>

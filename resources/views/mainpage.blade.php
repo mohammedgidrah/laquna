@@ -142,6 +142,8 @@
                 aria-label="Slide 12"></button>
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="12"
                 aria-label="Slide 13"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="13"
+                aria-label="Slide 14"></button>
 
         </div>
 
@@ -149,6 +151,22 @@
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.instagram.com/aqabadevelopmentcorp/" class="image-hvr-effect">
+                                <img src="images/portfolio/ADS.png" alt="movida" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.instagram.com/aqabadevelopmentcorp/">Aqaba Development Corpration</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
@@ -164,7 +182,7 @@
                     </article>
                 </div>
             </div>
-            <div class="carousel-item " data-bs-interval="3000">
+            <div class="carousel-item" data-bs-interval="3000">
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>

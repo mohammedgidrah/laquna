@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const portfolioItems = [
         { title: "Talabay Hotels & Resorts", img: "images/portfolio/Talabay_logo-01[1].png", link: "https://www.instagram.com/talabayresort/" },
         { title: "Murasakai Restobar", img: "images/portfolio/Mursakai logo[1].png",link: "https://www.instagram.com/murasaki.restobar/" },
-        { title: "Aqaba Development Corporation", img: "images/portfolio/التطوير.png",link: "https://www.adc.jo/" },
+        { title: "Aqaba Development Corporation", img: "images/portfolio/التطوير.png",link: "https://www.instagram.com/aqabadevelopmentcorp/" },
         { title: "Movida Entertainment", img: "images/portfolio/movida.jpg",link: "https://www.instagram.com/movidajo_entertainment/" },
         { title: "Mirachi Indian Cusine", img: "images/portfolio/Mirchi[1].png" ,link: "https://www.instagram.com/mirchi.aqaba/?hl=ar"},
         { title: "Space Restocafe", img: "images/portfolio/Space[1].PNG" ,link: "https://www.instagram.com/space_restocafe/" },
