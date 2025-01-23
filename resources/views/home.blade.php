@@ -10,6 +10,8 @@
     <meta name="keywords" content="Branding, Social Media, Graphic Design, Photography, Videography, Events, Wood Manufacturing, Web Development, Content Creation, Advertising">
 
     <title> @yield('title')</title>
+    <link rel="icon" type="image/jpg" href="{{asset('images/fav icon.png')}}" />
+
 
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">

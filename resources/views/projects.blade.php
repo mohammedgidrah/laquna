@@ -2,12 +2,12 @@
 @section('title', 'Projects')
 
 @section('content')
-    <section class="page-title bg-1">
-        <div class="container">
+    <section class="page-title bg-2">
+        <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                         <h1 class="text-capitalize mb-4 text-lg">Our Projects</h1>
+                         <h1 class="text-capitalize mb-4 text-lg">A Glance Of Our Projects</h1>
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="{{ url('/') }}" class="text-white">Home</a></li>
                             <li class="list-inline-item"><span class="text-white">/</span></li>

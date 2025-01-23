@@ -4,8 +4,8 @@
 
 @section('content')
 
-<section class="page-title bg-1">
-    <div class="container">
+<section class="page-title bg-5" id="contact-style">
+    <div class="container" >
         <div class="row">
             <div class="col-md-12">
                 <div class="block text-center">
@@ -63,10 +63,10 @@
                     <span class="text-muted">We are Professionals</span>
                     <h2 class="mb-5 mt-2">Don’t Hesitate to contact with us for any kind of information</h2>
                     <ul class="address-block list-unstyled">
-                        <li><i class="ti-direction mr-3"></i>North Main Street, Brooklyn Australia</li>
+                        <li><i class="ti-direction mr-3"></i>Aqaba-Haya Circle-RJ Building-1st-Floor</li>
                         <li>
                             <a href="mailto:leensabti@lagunavco.com">
-                                <i class="ti-email mr-3"></i><span>leensabti@lagunavco.com</span>
+                                <i class="ti-email mr-3"></i><span>Contact Us</span>
                             </a>
                         </li>
                         <li><i class="ti-mobile mr-3"></i>Phone: +962 797992323</li>

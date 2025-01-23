@@ -2,8 +2,8 @@
 @section('title', 'About')
 @section('content')
     <div class="main-wrapper">
-        <section class="page-title bg-1">
-            <div class="container">
+        <section class="page-title bg-3">
+            <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block text-center">
@@ -27,7 +27,7 @@
 
         <!-- Section About Start -->
         <section class="section about-2 position-relative">
-            <div class="container">
+            <div class="container" >
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="about-item pr-3 mb-5 mb-lg-0">

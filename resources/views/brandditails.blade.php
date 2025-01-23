@@ -2,8 +2,8 @@
 @section('title', 'brandditails')
 
 @section('content')
-    <section class="page-title bg-1">
-        <div class="container">
+    <section class="page-title bg-2">
+        <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100%;"   >
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">

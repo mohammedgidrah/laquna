@@ -1,8 +1,8 @@
 @extends('home')
 @section('title', 'Home')
- 
+
 @section('content')
-   
+
     <section class="slider">
         <div class="container">
             <div class="row">
@@ -55,7 +55,7 @@
                         <i class="ti-layers-alt color-one"></i>
                         <h4 class="mt-4 mb-3"> Event Production, Photography, and Videography Excellence</h4>
                         <p>Delivering seamless event experiences while capturing every moment with professional photography
-                            and videography </p>
+                            and videography. </p>
                     </div>
                 </div>
             </div>
@@ -135,20 +135,36 @@
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
-            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="9"
-                aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="10"
                 aria-label="Slide 11"></button>
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="11"
                 aria-label="Slide 12"></button>
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="12"
                 aria-label="Slide 13"></button>
+
         </div>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.instagram.com/movidajo_entertainment/" class="image-hvr-effect">
+                                <img src="images/portfolio/movida.jpg" alt="movida" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.instagram.com/movidajo_entertainment/">Movida Entertainment</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
@@ -229,7 +245,7 @@
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/HIGH.FIT.JO/?locale=ar_AR">High Fit  Fitness Center </a>
+                                <a href="https://www.facebook.com/HIGH.FIT.JO/?locale=ar_AR">High Fit Fitness Center </a>
                             </h3>
                         </div>
                     </article>
@@ -317,7 +333,7 @@
                     </article>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            {{-- <div class="carousel-item" data-bs-interval="3000">
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
@@ -332,7 +348,7 @@
                         </div>
                     </article>
                 </div>
-            </div>
+            </div> --}}
             <div class="carousel-item" data-bs-interval="3000">
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
@@ -353,13 +369,13 @@
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
                         <figure>
-                            <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR" class="image-hvr-effect">
+                            <a href="#" class="image-hvr-effect">
                                 <img src="images/portfolio/marina.PNG" alt="marina" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
                             <h3 class="post-title">
-                                <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR">Marina Restaurant & Fishery</a>
+                                <a href="#">Marina Restaurant & Fishery</a>
                             </h3>
                         </div>
                     </article>
@@ -382,7 +398,7 @@
     </div>
 
 
- 
+
     <!--  Section Services End -->
     <!-- Section Cta Start -->
     <section class="section cta">
@@ -394,17 +410,17 @@
                         <p class="lead mb-4">Have any project on mind? For immidiate support :</p>
                         <h3 class="number"><i class="ti-mobile mr-3 text-color"></i>+962 797992323 </h3>
                         <span class="email" style="padding-left: 5px"> <i class="fa fa-envelope mr-2 color-one"></i><a
-                                href="mailto:leensabti@lagunavco.com"> <span
-                                    style="padding-left: 10px">leensabti@lagunavco.com</span></a>
+                                href="mailto:leensabti@lagunavco.com"> <span style="padding-left: 10px">Contact
+                                    Us</span></a>
                         </span>
- 
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--  Section Cta End-->
-     <section class="section latest-blog bg-2">
+    <section class="section latest-blog  ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">
@@ -414,18 +430,23 @@
                     </div>
                 </div>
             </div>
-    
+
             <div class="row">
                 <div class="col-12">
-                    <div class="card bg-transparent border-0" >
+                    <div class="card bg-transparent border-0">
                         <div class="card-body   d-flex flex-column flex-lg-row   align-items-center">
                             <!-- Responsive image -->
                             <img src="images/leen photo.jpg" alt="Founder" class="img-fluid col-lg-4 mb-4 mb-lg-0">
-                            
+
                             <!-- Responsive text block -->
-                            <h3 class="mt-3 mb-5 lh-36 text-white" style="font-size: 17px; font-weight: 100; max-width: 450px;">
-                                Founded by Leen Sabti, a seasoned retail and graphic designer with over 10 years of experience, Laguna Visual Communications is driven by a passion for innovation and a commitment to excellence.
-                                Leen’s vision is to blend creativity with strategy, offering clients powerful, visually impactful solutions that stand out in a competitive market.
+                            <h3 class="mt-3 mb-5 lh-36 text-white"
+                                style="font-size: 17px; font-weight: 100; max-width: 450px;">
+                                Founded by Leen Sabti, an accomplished graphic designer with over 10 years of experience,
+                                Laguna Visual Communications stands as a testament to innovation, creativity, and
+                                excellence. With a deep passion for transforming ideas into impactful visuals, Leen has
+                                mastered the art of blending creativity with strategic thinking to craft solutions that not
+                                only define brands but make them unforgettable. Under her leadership, Laguna is dedicated to
+                                helping clients stand out and thrive in today’s competitive market.
                             </h3>
                         </div>
                     </div>
@@ -433,7 +454,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <section class="mt-70 position-relative">
         <div class="container">

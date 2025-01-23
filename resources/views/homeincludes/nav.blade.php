@@ -12,7 +12,7 @@
 				<div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
 					<div class="header-top-info">
 						<a href="tel:+23-345-67890">Call Us : <span>+962 797992323</span></a>
-						<a href="mailto:leensabti@lagunavco.com" ><i class="fa fa-envelope mr-2"></i><span>leensabti@lagunavco.com</span></a>
+						<a href="mailto:leensabti@lagunavco.com" ><i class="fa fa-envelope mr-2"></i><span>Contact Us</span></a>
 					</div>
 				</div>
 			</div>

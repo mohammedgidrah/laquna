@@ -3,8 +3,8 @@
 
 @section('content')
  
-<section class="page-title bg-1">
-    <div class="container">
+<section class="page-title bg-4">
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
       <div class="row">
         <div class="col-md-12">
           <div class="block text-center">
@@ -39,6 +39,17 @@
             <!-- Page 1 Items -->
             <div class="col-lg-4 col-md-6">
                 <div class="portflio-item position-relative mb-4">
+                    <a href="images/portfolio/movidea.jpg" class="popup-gallery">
+                        <img src="images/portfolio/Talabay_logo-01[1].png" alt="" class="img-fluid w-100">
+                        <i class="ti-plus overlay-item"></i>
+                        <div class="portfolio-item-content">
+                            <h3 class="mb-0 text-white">Talabay Hotels & Resorts</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="portflio-item position-relative mb-4">
                     <a href="images/portfolio/Talabay_logo-01[1].png" class="popup-gallery">
                         <img src="images/portfolio/Talabay_logo-01[1].png" alt="" class="img-fluid w-100">
                         <i class="ti-plus overlay-item"></i>
@@ -61,6 +72,17 @@
                 </div>
             </div>
 
+            <div class="col-lg-4 col-md-6">
+                <div class="portflio-item position-relative mb-4">
+                    <a href="images/portfolio/Mirchi[1].png" class="popup-gallery">
+                        <img src="images/portfolio/ADS.png" alt="" class="img-fluid w-100">
+                        <i class="ti-plus overlay-item"></i>
+                        <div class="portfolio-item-content">
+                            <h3 class="mb-0 text-white">Aqaba Development Corp</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
             <div class="col-lg-4 col-md-6">
                 <div class="portflio-item position-relative mb-4">
                     <a href="images/portfolio/Mirchi[1].png" class="popup-gallery">
