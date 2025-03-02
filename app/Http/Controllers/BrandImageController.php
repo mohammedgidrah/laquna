@@ -18,7 +18,7 @@ class BrandImageController extends Controller
     public function upload(Request $request, int $id)
     {
         $request->validate([
-            'images.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'images.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:51200', // 50MB limit
         ]);
 
         $brandimages = Brand::findOrFail($id);

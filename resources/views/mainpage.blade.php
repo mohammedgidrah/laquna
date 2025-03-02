@@ -144,6 +144,8 @@
                 aria-label="Slide 13"></button>
             <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="13"
                 aria-label="Slide 14"></button>
+            <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="14"
+                aria-label="Slide 15"></button>
 
         </div>
 
@@ -351,22 +353,7 @@
                     </article>
                 </div>
             </div>
-            {{-- <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
-                        <figure>
-                            <a href="https://mazayaworld.com/en" class="image-hvr-effect">
-                                <img src="images/portfolio/Mazaya[1].PNG" alt="Mazaya" class="post-image img-fluid">
-                            </a>
-                        </figure>
-                        <div class="post-content">
-                            <h3 class="post-title">
-                                <a href="https://mazayaworld.com/en">Mazaya</a>
-                            </h3>
-                        </div>
-                    </article>
-                </div>
-            </div> --}}
+ 
             <div class="carousel-item" data-bs-interval="3000">
                 <div class="d-flex justify-content-center">
                     <article class="post-item text-center">
@@ -394,6 +381,22 @@
                         <div class="post-content">
                             <h3 class="post-title">
                                 <a href="#">Marina Restaurant & Fishery</a>
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex justify-content-center">
+                    <article class="post-item text-center">
+                        <figure>
+                            <a href="https://www.instagram.com/azad.cafe/" class="image-hvr-effect">
+                                <img src="images/portfolio/azad.PNG" alt="azad" class="post-image img-fluid">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="https://www.instagram.com/azad.cafe/">Azad Restaurant</a>
                             </h3>
                         </div>
                     </article>
