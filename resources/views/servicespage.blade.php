@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row  ">
             <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
                 <div class="service-item">
                     <i class="ti-vector"></i>

@@ -7,11 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
     <meta name="author" content="themefisher.com">
-    <meta name="keywords" content="Branding, Social Media, Graphic Design, Photography, Videography, Events, Wood Manufacturing, Web Development, Content Creation, Advertising">
+    <meta name="keywords"
+        content="Branding, Social Media, Graphic Design, Photography, Videography, Events, Wood Manufacturing, Web Development, Content Creation, Advertising">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="lagunavco">
+    <meta name="copyright" content="lagunavco">
+    <meta name="language" content="English">
+    <meta name="rating" content="General">
 
     <title> @yield('title')</title>
-    <link rel="icon" type="image/jpg" href="{{asset('images/fav icon.png')}}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/fav icon.png') }}">
 
+    <meta property="og:title" content="Your Website Title">
+    <meta property="og:description"
+        content="A creative agency specializing in branding, social media management, graphic design, web development, photography, videography, and content creation. We help businesses grow with innovative digital solutions and compelling visuals.">
+    <meta property="og:url" content="https://www.lagunavco.com">
+    <meta property="og:type" content="website">
 
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -28,6 +40,7 @@
     <!-- In your home.blade.php, add this inside the <head> section for styles -->
     <!-- Bootstrap CSS -->
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
+    
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -73,6 +86,8 @@
     <script src="plugins/google-map/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <script src="js/script.js"></script>
 

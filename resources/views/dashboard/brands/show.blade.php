@@ -70,7 +70,7 @@
                 @foreach ($multiplebrandimages as $brandimg)
                     <div class="col-md-3">
                         <div class="image-card text-center">
-                            <img class="border p-2 m-3" src="{{ asset('storage/' . $brandimg->image_path) }}" alt="img"
+                            <img class="border p-2 m-3" src="{{ asset($brandimg->image_path) }}" alt="img"
                                  style="width: 250px; height: 250px"/>
                             <div class="d-flex justify-content-center mt-2">
                                 <!-- Delete Button -->

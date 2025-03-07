@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700);
 html {
     overflow-x: hidden;
-}
+ }
 
 body {
     line-height: 1.5;
@@ -12,6 +12,41 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.65);
+    overflow-x: hidden;
+}
+/* Center the carousel items properly */
+ 
+
+/* Ensure images are responsive */
+.post-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .carousel-item {
+        text-align: center;
+    }
+    
+    .post-image {
+        max-width: 80%; /* Make images smaller on mobile */
+    }
+}
+
+/* Adjust carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Make buttons visible */
+    border-radius: 50%;
+    width: 400px;
+    padding: 10px;
 }
 
 h1,
@@ -249,8 +284,56 @@ input[type="tel"]:focus {
     font-size: 14px;
     letter-spacing: 1px;
 }
+/* Responsive Styles */
  
 
+@media (max-width: 768px) {
+    .page-title {
+        padding: 60px 0;
+    }
+
+    .page-title h1 {
+        font-size: 1.8rem;
+    }
+
+    .portfolio-gallery {
+        gap: 15px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .page-indicator {
+        padding: 4px 12px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-title {
+        padding: 50px 0;
+    }
+
+    .page-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .portfolio-gallery {
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .page-indicator {
+        padding:3px 10px;
+        font-size: 14px;
+    }
+}
 .overly,
 .page-title,
 .slider,
@@ -259,7 +342,7 @@ input[type="tel"]:focus {
     position: relative;
 }
 section.page-title.bg-5::before {
-background: none; 
+    background: none;
 }
 
 .overly:before,
@@ -356,12 +439,24 @@ a:focus {
 
 .page-title {
     padding: 100px 0;
+    text-align: center;
 }
 
 .page-title .block h1 {
     color: #fff;
 }
-
+.text-center {
+    margin-top: 20px;
+}
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+.page-title h1 {
+    font-size: 2.5rem;
+}
 .page-title .block p {
     color: #fff;
 }
@@ -475,7 +570,6 @@ a:focus {
 }
 
 .header-top .header-top-socials {
-    border-right: 1px solid rgba(255, 255, 255, 0.05);
     padding: 12px 0px;
 }
 
@@ -561,41 +655,61 @@ ul.dropdown-menu li {
     background: url("../images/bg/heroimg.jpg") no-repeat 50% 50%;
     background-size: cover;
     height: 500px;
-
 }
 .bg-4 {
     background: url("../images/our\ clients\ banner.jpg") no-repeat 50% 50%;
     background-size: cover;
     height: 500px;
-     
 }
 .bg-2 {
     background: url("../images/projects\ banner.jpg") no-repeat 50% 50%;
     background-size: cover;
     height: 500px;
-
 }
 
 .bg-3 {
-    background: url("../images/about\ banner.jpg")  no-repeat 50% 50%;
+    background: url("../images/about\ banner.jpg") no-repeat 50% 50%;
     background-size: cover;
     height: 500px;
-     
 }
 .bg-5 {
     /* background: url("../images/contact\ us\ banner.jpg")  no-repeat 50% 50%;  */
-    background-color: rgb(0,104 , 255);
- 
-
+    background-color: rgb(0, 104, 255);
 }
-
 
 .slider {
     background: url("../images/bg/herosection.jpg") no-repeat;
-    background-size: cover;
-    background-position: 10% 0%;
+    background-size: cover; /* Cover ensures the image scales properly */
+    background-position: center;
     padding: 200px 0 280px 0;
     position: relative;
+}
+
+/* Adjust for tablets */
+@media (max-width: 1024px) {
+    .slider {
+        background-size: cover; /* Ensure the image scales well */
+        background-position: center;
+        padding: 150px 0 200px 0;
+    }
+}
+
+/* Adjust for mobile screens */
+@media (max-width: 768px) {
+    .slider {
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0 150px 0;
+    }
+}
+
+/* Adjust for very small screens */
+@media (max-width: 480px) {
+    .slider {
+        background-size: cover;
+        background-position: center;
+        padding: 80px 0 120px 0;
+    }
 }
 
 .slider .block h1 {
@@ -764,7 +878,7 @@ ul.dropdown-menu li {
     opacity: 0.4;
 }
 
-.cta {
+/* .cta {
     background: url("../images/bg/home-3.jpg") fixed 50% 50%;
     background-size: cover;
     padding: 120px 0px;
@@ -773,7 +887,7 @@ ul.dropdown-menu li {
 .cta-block {
     background: url("../images/bg/home-3.jpg") no-repeat;
     background-size: cover;
-}
+} */
 
 .testimonial-item {
     padding: 50px 30px;
@@ -951,7 +1065,7 @@ ul.dropdown-menu li {
 }
 
 .blog-item-content h3 a:hover {
-    color: #007bff !important;
+    color: #007bff  ;
 }
 
 .lh-36 {
@@ -1367,14 +1481,17 @@ h3.quote::before {
         margin-left: 0px;
         display: block;
     }
-    .number{
+    .number {
         font-size: 20px;
     }
-    .email{
+    .email {
         font-size: 15px;
     }
     .navbar-toggler {
         color: #fff;
+    }
+    .animated .fadeInUp .mb-5 {
+        font-size: 20px;
     }
     .slider .block h1 {
         font-size: 28px;
@@ -1435,6 +1552,9 @@ h3.quote::before {
     }
     .navbar-toggler {
         color: #fff;
+    }
+    #maintext {
+        font-size: 36px;
     }
     .slider .block h1 {
         font-size: 38px;
@@ -1586,11 +1706,16 @@ h3.quote::before {
         font-size: 16px;
     }
 
+    .service-item{
+        flex-direction: row !important;
+
+    }
     .footer-menu a {
         font-size: 14px;
     }
 }
 
+ 
 /* Style for the logo image to make it responsive and properly aligned */
 header.navigation .navbar-brand img {
     max-width: 100%; /* Ensures the image never overflows its container */
@@ -1753,7 +1878,7 @@ a {
 }
 
 .image-hvr-effect img:hover {
-     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Flexbox Container */
@@ -1804,7 +1929,7 @@ a {
     }
 
     .image-hvr-effect img:hover {
-         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 }
 
@@ -1818,70 +1943,67 @@ a {
         font-size: 18px;
     }
 
- 
-
     .d-flex {
         padding: 40px;
     }
 }
 /* Ensures the text and image stack properly on smaller screens */
 @media (max-width: 1200px) {
-  .card-body {
-      flex-direction: column; /* Stack items for medium-sized screens */
-  }
+    .card-body {
+        flex-direction: column; /* Stack items for medium-sized screens */
+    }
 }
 
 @media (max-width: 992px) {
-  .section-title h2 {
-      font-size: 1.8rem; /* Slightly smaller font for tablets */
-  }
+    .section-title h2 {
+        font-size: 1.8rem; /* Slightly smaller font for tablets */
+    }
 
-  .card-body h3 {
-      font-size: 16px; /* Smaller font for tablets */
-  }
+    .card-body h3 {
+        font-size: 16px; /* Smaller font for tablets */
+    }
 
-  .card-body img {
-      max-width: 100%; /* Image takes full width on medium screens */
-  }
+    .card-body img {
+        max-width: 100%; /* Image takes full width on medium screens */
+    }
 }
 
 @media (max-width: 768px) {
-  .section-title h2 {
-      font-size: 1.6rem; /* Smaller font size for mobile screens */
-  }
+    .section-title h2 {
+        font-size: 1.6rem; /* Smaller font size for mobile screens */
+    }
 
-  .card-body h3 {
-      font-size: 14px; /* Even smaller font for mobile screens */
-      max-width: 100%; /* Ensure text takes full width */
-  }
+    .card-body h3 {
+        font-size: 14px; /* Even smaller font for mobile screens */
+        max-width: 100%; /* Ensure text takes full width */
+    }
 
-  .card-body img {
-      width: 100%; /* Make image full width on small screens */
-      margin-bottom: 20px; /* Add spacing below the image */
-  }
+    .card-body img {
+        width: 75%; /* Make image full width on small screens */
+        margin-bottom: 20px; /* Add spacing below the image */
+    }
 
-  /* Ensure the card content aligns well on small screens */
-  .card-body {
-      text-align: center;
-  }
+    /* Ensure the card content aligns well on small screens */
+    .card-body {
+        text-align: center;
+    }
 }
 
 @media (max-width: 576px) {
-  .section-title h2 {
-      font-size: 1.4rem; /* Smaller font size for extra-small screens */
-  }
+    .section-title h2 {
+        font-size: 1.4rem; /* Smaller font size for extra-small screens */
+    }
 
-  .card-body h3 {
-      font-size: 12px; /* Adjust text size for readability */
-      max-width: 100%;
-  }
+    .card-body h3 {
+        font-size: 12px; /* Adjust text size for readability */
+        max-width: 100%;
+    }
 
-  .card-body img {
-      width: 100%; /* Ensure the image is responsive on extra-small screens */
-      margin-bottom: 15px;
-  }
+    .card-body img {
+        width: 60%; /* Ensure the image is responsive on extra-small screens */
+        margin-bottom: 15px;
+    }
 }
-
 
 /* For screens up to 400px (very small screens) */
 @media (max-width: 400px) {
@@ -1901,7 +2023,7 @@ a {
     }
 
     .carousel-control-next {
-        right: -7px;
+        right: 0px;
     }
 
     .carousel-control-prev-icon::before,
@@ -1912,13 +2034,11 @@ a {
 
 /* Styling for Carousel Indicators */
 .carousel-indicators {
-    bottom: 10px; /* Adjusts the position from the bottom */
-    margin: 0px;
-    display: flex;
-    width: 100%;
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Centers items vertically */
-    gap: 8px; /* Space between indicators */
+    bottom: 10px;  
+     display: flex;
+     justify-content: center;  
+    align-items: center;  
+    gap: 5px;  
 }
 
 /* Individual Indicator Button Styling */
@@ -1926,7 +2046,7 @@ a {
     width: 12px; /* Size of the indicator */
     height: 12px; /* Size of the indicator */
     border-radius: 50%; /* Circular shape */
-    background-color: rgba(0, 0, 0, 0.5); /* Default background color */
+    background-color: rgba(0, 0, 0, 0.5);  
     border: none;
     transition: background-color 0.3s, transform 0.3s;
 }
@@ -1939,8 +2059,8 @@ a {
 
 /* Hover Effect for Indicators */
 .carousel-indicators button:hover {
-    background-color: #0056b3;  
-    transform: scale(1.3);  
+    background-color: #0056b3;
+    transform: scale(1.3);
 }
 
 /* Small Screens: Adjust the size of the indicators */
@@ -1963,97 +2083,8 @@ a {
         width: 8px;
         height: 8px;
     }
-}
-
-
-
-
-.page-indicator {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-color: #007bff;
-  color: white;
-  border-radius: 50%;
-  line-height: 30px;
-  text-align: center;
-  margin: 0 15px;
-  font-size: 18px;
-}
-
-.btn {
-  margin: 0 10px;
-}
-
-.branding-image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.image-container {
-  background-color: #f4f4f4;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.image-container h2 {
-  font-size: 1.25em;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.service-item {
-    display: flex;
-    flex-direction: column;   
-    align-items: center;   
-    justify-content: center;   
-    padding-top: 13px;
-    text-align: center;  
-}
-
- .service-item i {
-    font-size: 40px;  
-    margin-bottom: 10px;   
-}
-
- .service-item h4 {
-    font-size: 18px;   
-    margin: 0;  
-    line-height: 1.4;   
-}
-
- @media (max-width: 1200px) {
-    .service-item {
-        flex-direction: row;   
-        text-align: left;   
-    }
-
-    .service-item i {
-        font-size: 35px;   
-        margin-bottom: 0;  
-        margin-right: 15px;  
-    }
-
-    .service-item h4 {
-        font-size: 16px;  
-    }
-}
-
-@media (max-width: 767px) {
-    .service-item {
-        flex-direction: column;  
-        text-align: center;   
-    }
-
-    .service-item i {
-        font-size: 30px;  
-        margin-bottom: 10px; 
-    }
-
-    .service-item h4 {
-        font-size: 14px;   
+    .card-body img {
+        width: 70%;
     }
 }
 
@@ -2065,10 +2096,87 @@ a {
     color: white;
     border-radius: 50%;
     line-height: 30px;
-    text-align: center;
-    margin: 0 15px;
+     margin: 0px 10px;
     font-size: 18px;
+ 
 }
+
+.btn {
+    margin: 0 10px;
+}
+
+.branding-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-container {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container h2 {
+    font-size: 1.25em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-top: 13px;
+    text-align: center;
+}
+
+.service-item i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.service-item h4 {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+@media (max-width: 1200px) {
+    .service-item {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .service-item i {
+        font-size: 35px;
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
+
+    .service-item h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-item {
+        /* flex-direction: column; */
+         text-align: center;
+    }
+
+    .service-item i {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .service-item h4 {
+        font-size: 14px;
+    }
+}
+
+ 
 
 .btn {
     margin: 0 10px;

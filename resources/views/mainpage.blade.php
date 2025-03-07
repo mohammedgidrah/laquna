@@ -9,7 +9,7 @@
                 <div class="col-lg-9 col-md-10">
                     <div class="block">
                         {{-- <span class="d-block mb-3 text-white text-capitalize">A mint of creativity</span> --}}
-                        <h1 class="animated fadeInUp mb-5">Where your <br> vision meets striking <br>transformative designs
+                        <h1 id="maintext" class="animated fadeInUp mb-5">Where your <br> vision meets striking <br>transformative designs
                         </h1>
                         <a href="{{ url('contact') }}" target="_blank"
                             class="btn btn-main animated fadeInUp btn-round-full">Get
@@ -150,11 +150,12 @@
         </div>
 
         <!-- Wrapper for slides -->
+        <div  id="contentCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item ">
                         <figure>
                             <a href="https://www.instagram.com/aqabadevelopmentcorp/" class="image-hvr-effect">
                                 <img src="images/portfolio/ADS.png" alt="movida" class="post-image img-fluid">
@@ -169,8 +170,8 @@
                 </div>
             </div>
             <div class="carousel-item " data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item ">
                         <figure>
                             <a href="https://www.instagram.com/movidajo_entertainment/" class="image-hvr-effect">
                                 <img src="images/portfolio/movida.jpg" alt="movida" class="post-image img-fluid">
@@ -185,8 +186,8 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item   ">
                         <figure>
                             <a href="https://www.instagram.com/talabayresort/" class="image-hvr-effect">
                                 <img src="images/portfolio/Talabay_logo-01[1].png" alt="Talabay Hotels & Resorts"
@@ -204,8 +205,8 @@
 
             <!-- Slide 2 -->
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/murasaki.restobar/" class="image-hvr-effect">
                                 <img src="images/portfolio/Mursakai logo[1].png" alt="Murasakai Restobar"
@@ -222,8 +223,8 @@
             </div>
             <!-- Slide 2 -->
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/mirchi.aqaba/?hl=ar" class="image-hvr-effect">
                                 <img src="images/portfolio/Mirchi[1].png" alt="MIRACHI INDIAN CUSINE"
@@ -239,11 +240,11 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/space_restocafe/" class="image-hvr-effect">
-                                <img src="images/portfolio/Space[1].PNG" alt="SPACE RESTOCAFE"
+                                <img src="images/portfolio/Space[1].png" alt="SPACE RESTOCAFE"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
@@ -256,11 +257,11 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="https://www.facebook.com/HIGH.FIT.JO/?locale=ar_AR" class="image-hvr-effect">
-                                <img src="images/portfolio/Highfit[1].PNG" alt="HIGH FIT" class="post-image img-fluid">
+                                <img src="images/portfolio/Highfit[1].png" alt="HIGH FIT" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -272,11 +273,11 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/almoghrabipharmacy/" class="image-hvr-effect">
-                                <img src="images/portfolio/mughrabi pharmacy[1].PNG" alt="mughrabi pharmacy"
+                                <img src="images/portfolio/mughrabi pharmacy[1].png" alt="mughrabi pharmacy"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
@@ -290,11 +291,11 @@
             </div>
             <div class="carousel-item" data-bs-interval="3000">
                 {{-- ?????????????????????????? --}}
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item ">
                         <figure>
                             <a href="https://www.facebook.com/AMAZONKITCHENS.JO/" class="image-hvr-effect">
-                                <img src="images/portfolio/Amazon[1].PNG" alt="Amazon" class="post-image img-fluid">
+                                <img src="images/portfolio/Amazon[1].png" alt="Amazon" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -306,11 +307,11 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item ">
                         <figure>
                             <a href="#" class="image-hvr-effect">
-                                <img src="images/portfolio/ALdallah[1].PNG" alt="ALdallah" class="post-image img-fluid">
+                                <img src="images/portfolio/ALdallah[1].png" alt="ALdallah" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -322,11 +323,11 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item ">
                         <figure>
                             <a href="#" class="image-hvr-effect">
-                                <img src="images/portfolio/Ishq[1].PNG" alt="Ishq" class="post-image img-fluid">
+                                <img src="images/portfolio/Ishq[1].png" alt="Ishq" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -338,11 +339,11 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="https://www.facebook.com/mines.gaming2025" class="image-hvr-effect">
-                                <img src="images/portfolio/mines.PNG" alt="Mines" class="post-image img-fluid">
+                                <img src="images/portfolio/mines.png" alt="Mines" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -355,11 +356,11 @@
             </div>
  
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR" class="image-hvr-effect">
-                                <img src="images/portfolio/myaqaba[1].PNG" alt="myaqaba" class="post-image img-fluid">
+                                <img src="images/portfolio/myaqaba[1].png" alt="myaqaba" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -371,11 +372,11 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="#" class="image-hvr-effect">
-                                <img src="images/portfolio/marina.PNG" alt="marina" class="post-image img-fluid">
+                                <img src="images/portfolio/marina.png" alt="marina" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -387,11 +388,11 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex justify-content-center">
-                    <article class="post-item text-center">
+                <div class="d-flex justify-content-center align-items-center text-center">
+                    <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/azad.cafe/" class="image-hvr-effect">
-                                <img src="images/portfolio/azad.PNG" alt="azad" class="post-image img-fluid">
+                                <img src="images/portfolio/azad.png" alt="azad" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -417,7 +418,7 @@
             <span class="visually-hidden"></span>
         </button>
     </div>
-
+</div>
 
 
     <!--  Section Services End -->

@@ -129,22 +129,22 @@ document.addEventListener("DOMContentLoaded", () => {
 // client
 
     const portfolioItems = [
-        { title: "Talabay Hotels & Resorts", img: "images/portfolio/Talabay_logo-01[1].png", link: "https://www.instagram.com/talabayresort/" },
+        { title: "Talabay Hotels & Resorts", img: "images/portfolio/Talabay_logo-01[1].PNG", link: "https://www.instagram.com/talabayresort/" },
         { title: "Murasakai Restobar", img: "images/portfolio/Mursakai logo[1].png",link: "https://www.instagram.com/murasaki.restobar/" },
         { title: "Aqaba Development Corporation", img: "images/portfolio/التطوير.png",link: "https://www.instagram.com/aqabadevelopmentcorp/" },
         { title: "Movida Entertainment", img: "images/portfolio/movida.jpg",link: "https://www.instagram.com/movidajo_entertainment/" },
         { title: "Mirachi Indian Cusine", img: "images/portfolio/Mirchi[1].png" ,link: "https://www.instagram.com/mirchi.aqaba/?hl=ar"},
-        { title: "Space Restocafe", img: "images/portfolio/Space[1].PNG" ,link: "https://www.instagram.com/space_restocafe_jo/" },
-        { title: "High Fit  Fitness Center ", img: "images/portfolio/Highfit[1].PNG" ,link: "https://www.instagram.com/highfitfitnesscenter/" },
-        { title: "Almughrabi Pharmacy", img: "images/portfolio/mughrabi pharmacy[1].PNG",link: "https://www.instagram.com/almughrabi_pharmacy/" },
-        { title: "Amazon Kitchen & Industrial Wood", img: "images/portfolio/Amazon[1].PNG",link: "https://www.facebook.com/AMAZONKITCHENS.JO/" },
-        { title: "Aldallah", img: "images/portfolio/ALdallah[1].PNG",  },
-        { title: "Ishq Hotel", img: "images/portfolio/Ishq[1].PNG",  },
-        { title: "Mines Gaming Center", img: "images/portfolio/Mines[1].PNG",link: "https://www.facebook.com/mines.gaming2025" },
-        { title: "Mazaya", img: "images/portfolio/Mazaya[1].PNG",link: "https://mazayaworld.com/en" },
-        { title: "MyAqaba", img: "images/portfolio/myaqaba[1].PNG",link: "https://www.facebook.com/MyAqaba/?locale=ar_AR" },
-        { title: "Marina Restaurant & Fishery", img: "images/portfolio/marina.PNG",  },
-        { title: "Azad Resturants", img: "images/portfolio/azad.PNG", link: "https://www.instagram.com/azad.cafe/" },
+        { title: "Space Restocafe", img: "images/portfolio/Space[1].png" ,link: "https://www.instagram.com/space_restocafe_jo/" },
+        { title: "High Fit  Fitness Center ", img: "images/portfolio/Highfit[1].png" ,link: "https://www.instagram.com/highfitfitnesscenter/" },
+        { title: "Almughrabi Pharmacy", img: "images/portfolio/mughrabi pharmacy[1].png",link: "https://www.instagram.com/almughrabi_pharmacy/" },
+        { title: "Amazon Kitchen & Industrial Wood", img: "images/portfolio/Amazon[1].png",link: "https://www.facebook.com/AMAZONKITCHENS.JO/" },
+        { title: "Aldallah", img: "images/portfolio/ALdallah[1].png",  },
+        { title: "Ishq Hotel", img: "images/portfolio/Ishq[1].png",  },
+        { title: "Mines Gaming Center", img: "images/portfolio/Mines[1].png",link: "https://www.facebook.com/mines.gaming2025" },
+        { title: "Mazaya", img: "images/portfolio/Mazaya[1].png",link: "https://mazayaworld.com/en" },
+        { title: "MyAqaba", img: "images/portfolio/myaqaba[1].png",link: "https://www.facebook.com/MyAqaba/?locale=ar_AR" },
+        { title: "Marina Restaurant & Fishery", img: "images/portfolio/marina.png",  },
+        { title: "Azad Resturants", img: "images/portfolio/azad.png", link: "https://www.instagram.com/azad.cafe/" },
     ];
 
     const itemsPerPage = 6; // Show 6 items per page

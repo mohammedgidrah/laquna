@@ -27,13 +27,13 @@
             <div class="col-lg-8 col-md-10">
                 <div class="blog-item">
                          <!-- Check if the main image exists -->
-                        <img src="{{ asset('storage/' . $brand->main_image) }}" 
+                        <img src="{{ asset($brand->main_image) }}" 
                              alt="{{ $brand->name }}" 
                              class="img-fluid rounded" 
                              style="width: 100%; height: auto; object-fit: cover;">
  
 
-                    <div class="blog-item-content bg-white p-5">
+                    <div class="  bg-white p-5">
                         <h1 class="mb-3">{{ $brand->name }}</h1>
                         <div class="blog-item-meta bg-gray py-2 px-3 mb-4">
                             <span class="text-dark"><strong>Category:</strong> {{ $brand->category->name }}</span>
@@ -63,7 +63,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                         <div class="image-container text-center" 
                              style="padding: 15px; border: 1px solid #ddd; border-radius: 8px;">
-                            <img src="{{ asset('storage/' . $image->image_path) }}" 
+                            <img src="{{ asset( $image->image_path) }}" 
                                  alt="Mockup" 
                                  class="branding-image" 
                                  style="width: 100%; max-width: 700px; height: auto; object-fit: contain;">

@@ -18,36 +18,43 @@ class BrandImageController extends Controller
     public function upload(Request $request, int $id)
     {
         $request->validate([
-            'images.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:51200', // 50MB limit
+            'images' => 'required|array', // Ensure images is an array
+            'images.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:51200', // 50MB limit
         ]);
-
-        $brandimages = Brand::findOrFail($id);
+    
+        $brand = Brand::findOrFail($id);
         $imageData = [];
-
-        // Check if files are uploaded
+    
         if ($request->hasFile('images')) {
             foreach ($request->file('images') as $key => $file) {
-                $extension = $file->getClientOriginalExtension();
-                $filename = $key . '-' . time() . '.' . $extension;
-
-                // Store the image in the 'public' disk and get the relative path
-                $path = $file->storeAs('brand_images', $filename, 'public');
-                
-                // Prepare the image data to insert into the database
+                $filename = $key . '-' . time() . '.' . $file->getClientOriginalExtension();
+                $destinationPath = public_path('brand_images'); // Regular public folder
+    
+                // Ensure directory exists
+                if (!file_exists($destinationPath)) {
+                    mkdir($destinationPath, 0777, true);
+                }
+    
+                // Move file to public directory
+                $file->move($destinationPath, $filename);
+    
+                // Insert image path into database
                 $imageData[] = [
-                    'brand_id' => $brandimages->id,
-                    'image_path' => $path, // Store the relative path
+                    'brand_id' => $brand->id,
+                    'image_path' => "brand_images/$filename", // Accessible via URL
                     'created_at' => now(),
                     'updated_at' => now(),
                 ];
             }
+    
+            // Insert images in bulk
+            BrandImage::insert($imageData);
         }
-
-        // Insert the image data into the database
-        BrandImage::insert($imageData);
-
+    
         return redirect()->back()->with('success', 'Images uploaded successfully!');
     }
+    
+    
     public function destroy($brandId, $imageId)
     {
         // Find the image using the imageId

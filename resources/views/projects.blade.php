@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                         <h1 class="text-capitalize mb-4 text-lg">A Glance Of Our Projects</h1>
+                         <h1 class="text-capitalize mb-4 text-lg">Our Projects</h1>
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="{{ url('/') }}" class="text-white">Home</a></li>
                             <li class="list-inline-item"><span class="text-white">/</span></li>
@@ -28,7 +28,7 @@
                         <div class="col-lg-6 col-md-6 mb-5">
                             <div class="blog-item">
                                      <!-- Check if a main image exists -->
-                                    <img src="{{ asset('storage/' . $brand->main_image) }}" 
+                                    <img src="{{ asset($brand->main_image) }}" 
                                          alt="{{ $brand->name }}" 
                                          class="img-fluid rounded">
                     
