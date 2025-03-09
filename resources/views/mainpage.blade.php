@@ -190,7 +190,7 @@
                     <article class="post-item   ">
                         <figure>
                             <a href="https://www.instagram.com/talabayresort/" class="image-hvr-effect">
-                                <img src="images/portfolio/Talabay_logo-01[1].png" alt="Talabay Hotels & Resorts"
+                                <img src="images/portfolio/Talabay_logo-01[1].PNG" alt="Talabay Hotels & Resorts"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
@@ -209,7 +209,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/murasaki.restobar/" class="image-hvr-effect">
-                                <img src="images/portfolio/Mursakai logo[1].png" alt="Murasakai Restobar"
+                                <img src="images/portfolio/Mursakai logo[1].PNG" alt="Murasakai Restobar"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
@@ -227,7 +227,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/mirchi.aqaba/?hl=ar" class="image-hvr-effect">
-                                <img src="images/portfolio/Mirchi[1].png" alt="MIRACHI INDIAN CUSINE"
+                                <img src="images/portfolio/Mirchi[1].PNG" alt="MIRACHI INDIAN CUSINE"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
@@ -244,7 +244,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/space_restocafe/" class="image-hvr-effect">
-                                <img src="images/portfolio/Space[1].png" alt="SPACE RESTOCAFE"
+                                <img src="images/portfolio/Space[1].PNG" alt="SPACE RESTOCAFE"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
@@ -261,7 +261,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="https://www.facebook.com/HIGH.FIT.JO/?locale=ar_AR" class="image-hvr-effect">
-                                <img src="images/portfolio/Highfit[1].png" alt="HIGH FIT" class="post-image img-fluid">
+                                <img src="images/portfolio/Highfit[1].PNG" alt="HIGH FIT" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -277,7 +277,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/almoghrabipharmacy/" class="image-hvr-effect">
-                                <img src="images/portfolio/mughrabi pharmacy[1].png" alt="mughrabi pharmacy"
+                                <img src="images/portfolio/mughrabi pharmacy[1].PNG" alt="mughrabi pharmacy"
                                     class="post-image img-fluid">
                             </a>
                         </figure>
@@ -295,7 +295,7 @@
                     <article class="post-item ">
                         <figure>
                             <a href="https://www.facebook.com/AMAZONKITCHENS.JO/" class="image-hvr-effect">
-                                <img src="images/portfolio/Amazon[1].png" alt="Amazon" class="post-image img-fluid">
+                                <img src="images/portfolio/Amazon[1].PNG" alt="Amazon" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -311,7 +311,7 @@
                     <article class="post-item ">
                         <figure>
                             <a href="#" class="image-hvr-effect">
-                                <img src="images/portfolio/ALdallah[1].png" alt="ALdallah" class="post-image img-fluid">
+                                <img src="images/portfolio/ALdallah[1].PNG" alt="ALdallah" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -327,7 +327,7 @@
                     <article class="post-item ">
                         <figure>
                             <a href="#" class="image-hvr-effect">
-                                <img src="images/portfolio/Ishq[1].png" alt="Ishq" class="post-image img-fluid">
+                                <img src="images/portfolio/Ishq[1].PNG" alt="Ishq" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -343,7 +343,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="https://www.facebook.com/mines.gaming2025" class="image-hvr-effect">
-                                <img src="images/portfolio/mines.png" alt="Mines" class="post-image img-fluid">
+                                <img src="images/portfolio/mines.PNG" alt="Mines" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -360,7 +360,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="https://www.facebook.com/MyAqaba/?locale=ar_AR" class="image-hvr-effect">
-                                <img src="images/portfolio/myaqaba[1].png" alt="myaqaba" class="post-image img-fluid">
+                                <img src="images/portfolio/myaqaba[1].PNG" alt="myaqaba" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -376,7 +376,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="#" class="image-hvr-effect">
-                                <img src="images/portfolio/marina.png" alt="marina" class="post-image img-fluid">
+                                <img src="images/portfolio/marina.PNG" alt="marina" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
@@ -392,7 +392,7 @@
                     <article class="post-item  ">
                         <figure>
                             <a href="https://www.instagram.com/azad.cafe/" class="image-hvr-effect">
-                                <img src="images/portfolio/azad.png" alt="azad" class="post-image img-fluid">
+                                <img src="images/portfolio/azad.PNG" alt="azad" class="post-image img-fluid">
                             </a>
                         </figure>
                         <div class="post-content">
