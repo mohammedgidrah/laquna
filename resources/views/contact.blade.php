@@ -60,8 +60,7 @@
 
             <div class="col-lg-5 col-sm-12">
                 <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
-                    <span class="text-muted">We are Professionals</span>
-                    <h2 class="mb-5 mt-2">Don’t Hesitate to contact with us for any kind of information</h2>
+                     <h2 style="font-size: 50px" class="mb-5 mt- ">Let’s Talk</h2>
                     <ul class="address-block list-unstyled">
                         <li><i class="ti-direction mr-3"></i>Aqaba-Haya Circle-RJ Building-1st-Floor</li>
                         <li>

@@ -96,7 +96,6 @@
     <script src="{{ asset('plugins/slick-carousel/slick/slick.min.js') }}"></script>
     <script src="{{ asset('plugins/counterup/jquery.waypoints.min.js') }}"></script>
     <script src="{{ asset('plugins/counterup/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('plugins/google-map/map.js') }}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
     <script src="{{ asset('js/script.js') }}"></script>
 @endpush

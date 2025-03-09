@@ -19,7 +19,7 @@
     <title> @yield('title')</title>
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/fav icon.png') }}">
 
-    <meta property="og:title" content="Your Website Title">
+    <meta property="og:title" content="lagunavco">
     <meta property="og:description"
         content="A creative agency specializing in branding, social media management, graphic design, web development, photography, videography, and content creation. We help businesses grow with innovative digital solutions and compelling visuals.">
     <meta property="og:url" content="https://www.lagunavco.com">
@@ -83,8 +83,7 @@
     <script src="plugins/counterup/jquery.counterup.min.js"></script>
 
     <!-- Google Map -->
-    <script src="plugins/google-map/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap">
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 

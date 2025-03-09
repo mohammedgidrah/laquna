@@ -12,8 +12,8 @@
                         <h1 id="maintext" class="animated fadeInUp mb-5">Where your <br> vision meets striking <br>transformative designs
                         </h1>
                         <a href="{{ url('contact') }}" target="_blank"
-                            class="btn btn-main animated fadeInUp btn-round-full">Get
-                            started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+                            class="btn btn-main animated fadeInUp btn-round-full">
+                            Discover More<i class="btn-icon fa fa-angle-right ml-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" id="intro">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="intro-item mb-5 mb-lg-0">
                         <i class="ti-medall color-one"></i>
@@ -456,9 +456,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card bg-transparent border-0">
-                        <div class="card-body   d-flex flex-column flex-lg-row   align-items-center">
+                        <div class="card-body d-flex flex-column flex-lg-row   align-items-center">
                             <!-- Responsive image -->
-                            <img src="images/leen photo.jpg" alt="Founder" class="img-fluid col-lg-4 mb-4 mb-lg-0">
+                            <img src="images/leen photo.jpg" alt="Founder" id="founder" class="img-fluid col-12 col-md-6 col-lg-4 mb-4"  >
 
                             <!-- Responsive text block -->
                             <h3 class="mt-3 mb-5 lh-36 text-white"
