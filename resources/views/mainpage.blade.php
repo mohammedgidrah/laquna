@@ -11,7 +11,7 @@
                         {{-- <span class="d-block mb-3 text-white text-capitalize">A mint of creativity</span> --}}
                         <h1 id="maintext" class="animated fadeInUp mb-5">Where your <br> vision meets striking <br>transformative designs
                         </h1>
-                        <a href="{{ url('contact') }}" target="_blank"
+                        <a href="{{ url('contact') }}" 
                             class="btn btn-main animated fadeInUp btn-round-full">
                             Discover More<i class="btn-icon fa fa-angle-right ml-2"></i></a>
                     </div>
@@ -427,7 +427,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="cta-item  bg-white p-5 rounded">
+                    {{-- <div class="cta-item  bg-white p-5 rounded">
                         <h2 class="mt-2 mb-4">Entrust Your Project to our Best Team of Professionals</h2>
                         <p class="lead mb-4">Have any project on mind? For immidiate support :</p>
                         <h3 class="number"><i class="ti-mobile mr-3 text-color"></i>+962 797992323 </h3>
@@ -436,7 +436,7 @@
                                     Us</span></a>
                         </span>
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

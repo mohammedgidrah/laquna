@@ -1,20 +1,20 @@
 <header class="navigation">
 	<div class="header-top ">
 		<div class="container">
-			<div class="row justify-content-between align-items-center">
+			<div class="row   align-items-center" id="header">
 				<div class="col-lg-2 col-md-4">
-					<div class="header-top-socials text-center text-lg-left text-md-left">
+					<div class="header-top-socials text-center text-lg-left text-md-left d-flex align-items-center justify-content-center">
 						<a target="_blank" href="https://www.facebook.com/lagunavco" target="_blank"><i class="ti-facebook"></i></a>
 						<a target="_blank" href="https://www.instagram.com/lagunavco/" target="_blank"><i class="ti-instagram"></i></a>
 						<a target="_blank"  href="https://www.linkedin.com/company/laguna-visual-communications/""><i class="fab fa-linkedin-in"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
+				{{-- <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
 					<div class="header-top-info">
 						<a href="tel:+23-345-67890">Call Us : <span>+962 797992323</span></a>
 						<a href="mailto:leensabti@lagunavco.com" ><i class="fa fa-envelope mr-2"></i><span>Contact Us</span></a>
 					</div>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</div>

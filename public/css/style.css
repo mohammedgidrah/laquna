@@ -349,6 +349,9 @@ html {
     .carousel-item img {
         max-height: 500px;
     }
+    .navbar-toggler {
+        color: #fff;
+    }
     .footer .logo img {
         max-width: 50%;
         height: auto;
@@ -359,7 +362,11 @@ html {
         justify-content: center;
         align-items: center;
     }
-
+#header{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
     .section-title h2 {
         font-size: 1.8rem;
     }
