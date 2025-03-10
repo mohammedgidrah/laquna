@@ -362,6 +362,9 @@ html {
         justify-content: center;
         align-items: center;
     }
+    .bg-about{
+        display: none;
+    }
 #header{
     display: flex;
      justify-content: center;
