@@ -54,7 +54,7 @@
                     <div class="form-group-2 mb-4">
                         <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required>{{ old('message') }}</textarea>
                     </div>
-                    <button class="btn btn-main" name="submit" type="submit">Send Message</button>
+                    <button class="btn btn-main" name="submit" type="submit" id="contact-btn">Send Message</button>
                 </form>
             </div>
 

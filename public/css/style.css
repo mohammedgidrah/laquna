@@ -153,6 +153,9 @@ html {
     .navbar-toggler {
         color: #fff;
     }
+    #contact-btn a{
+        font-size: 12px;
+    }
     #maintext {
         font-size: 36px;
     }
@@ -412,8 +415,10 @@ body {
  
 .post-image {
     max-width: 100%;
-    height: auto;
+    max-height: 300px; /* Adjust as needed */
     border-radius: 8px;
+    object-fit: contain;
+
 }
 
 .carousel-control-prev,
@@ -553,8 +558,7 @@ input[type="tel"]:focus {
 .btn-main:hover,
 .btn-transparent:hover,
 .btn-small:hover {
-    background: #0b06a0;
-    color: #fff;
+     color: #fff;
 }
 
 .btn-solid-border {
@@ -797,7 +801,10 @@ a:focus {
 .header-top .header-top-socials {
     padding: 12px 0px;
 }
+.header-top-socials a{
+    text-decoration: none;
 
+}
 .header-top .header-top-socials a {
     color: #919194;
     margin-right: 15px;
@@ -1384,8 +1391,7 @@ a {
     align-items: center;
     justify-content: center;
     height: 30px;
-    /* width: 30px; */
-   
+    
 }
 
 #viewDetails{
@@ -1403,18 +1409,16 @@ a {
     transition: background-color 0.3s ease, transform 0.2s;
 }
 #viewDetails:hover {
-    background-color: #0056b3; 
+    background: #007bff;
+     
     transform: scale(1.05);
 }
 #viewDetails:active {
-    background-color: #004494;
-
+    background: #007bff;
+ 
     transform: scale(1);
 }
-#viewDetails:disabled{ 
-    background-color: #ccc;
-    cursor: not-allowed;
-}
+ 
 /* Custom Button Style */
 .discover-button {
      align-items: center;
@@ -1434,21 +1438,49 @@ a {
 
 /* Hover Effect */
 .discover-button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+    background: #007bff;
+    color: white;
+     transform: scale(1.05);
 }
 
 /* Active Effect */
 .discover-button:active {
-    background-color: #004494;
-    transform: scale(1);
-}
+    background: #007bff;
+ }
 
 /* Icon (if included inside the button) */
 .discover-button i {
     margin-left: 8px;
 }
 
+#contact-btn{
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;  
+    border: none;
+    width: 187px;
+    border-radius: 50px;  
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+     align-items: center;
+    justify-content: center;
+}
+#contact-btn a{
+    color: white;
+    
+}
+#contact-btn:hover {
+    background-color: #007bff;
+ }
+#contact-btn:active {
+    background-color: #007bff;
+ }
 #brandName a{
     color: #333;
     text-decoration: none;

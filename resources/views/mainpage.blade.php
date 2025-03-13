@@ -82,7 +82,7 @@
                                 innovation to deliver exceptional results. Whether it’s branding, design, or event
                                 management, our team ensures your vision is brought to life with precision and impact.</p>
 
-                            <a href="{{ url('contact') }}" class="btn btn-main btn-round-full">Get started</a>
+                            <a href="{{ url('contact') }}" class="discover-button">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
             <div class="carousel-item active" data-bs-interval="3000">
                 <div class="d-flex justify-content-center align-items-center text-center">
                     <article class="post-item ">
-                        <figure>
+                        <figure class="figure-container">
                             <a href="https://www.instagram.com/aqabadevelopmentcorp/" class="image-hvr-effect">
                                 <img src="images/portfolio/ADS.png" alt="movida" class="post-image img-fluid">
                             </a>
@@ -464,7 +464,7 @@
 
                             <!-- Responsive text block -->
                             <h3 class="mt-3 mb-5 lh-36 text-white"
-                                style="font-size: 17px; font-weight: 100; max-width: 450px;">
+                                style="font-size: 17px; font-weight: 100; max-width: 450px; text-align: left">
                                 Founded by Leen Sabti, an accomplished graphic designer with over 10 years of experience,
                                 Laguna Visual Communications stands as a testament to innovation, creativity, and
                                 excellence. With a deep passion for transforming ideas into impactful visuals, Leen has
@@ -488,7 +488,7 @@
                         {{-- <span class="text-color">For Every type business</span> --}}
                         <h2 class="mt-2 mb-4 mb-lg-0">Entrust Your Project to Our Best Team of Professionals</h2>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-2" id="contact-btn">
                         <a href="{{ url('contact') }}" class="btn btn-main btn-round-full float-lg-right ">Contact Us</a>
                     </div>
                 </div>
