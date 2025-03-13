@@ -63,7 +63,7 @@
                      <h2 style="font-size: 50px" class="mb-5 mt- ">Let’s Talk</h2>
                     <ul class="address-block list-unstyled">
                         <li><i class="ti-direction mr-3"></i>Aqaba-Haya Circle-RJ Building-1st-Floor</li>
-                        <li>
+                        <li id="contact">
                             <a href="mailto:leensabti@lagunavco.com">
                                 <i class="ti-email mr-3"></i><span>Contact Us</span>
                             </a>

@@ -12,7 +12,7 @@
                         <h1 id="maintext" class="animated fadeInUp mb-5">Where your <br> vision meets striking <br>transformative designs
                         </h1>
                         <a href="{{ url('contact') }}" 
-                            class="btn btn-main animated fadeInUp btn-round-full">
+                            class="discover-button" id="">
                             Discover More<i class="btn-icon fa fa-angle-right ml-2"></i></a>
                     </div>
                 </div>
