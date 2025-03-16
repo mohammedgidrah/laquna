@@ -51,7 +51,7 @@
                             </p>
 
 
-                            <a href="{{ url('contact') }}" class="btn btn-main btn-round-full">Get started</a>
+                            {{-- <a href="{{ url('contact') }}" class="btn btn-main btn-round-full">Get started</a> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
